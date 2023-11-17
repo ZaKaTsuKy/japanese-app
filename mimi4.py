@@ -10,39 +10,6 @@ import csv
 from itertools import islice
 
 
-# Function that contains every alpahbet and known kanji
-def all_alphabet(alphabet):
-    # All Hiraganas alphabet
-    hiragana_with_translations = {
-    'あ': 'a', 'い': 'i', 'う': 'u', 'え': 'e', 'お': 'o',
-    'か': 'ka', 'き': 'ki', 'く': 'ku', 'け': 'ke', 'こ': 'ko',
-    'さ': 'sa', 'し': 'shi', 'す': 'su', 'せ': 'se', 'そ': 'so',
-    'た': 'ta', 'ち': 'chi', 'つ': 'tsu', 'て': 'te', 'と': 'to',
-    'な': 'na', 'に': 'ni', 'ぬ': 'nu', 'ね': 'ne', 'の': 'no',
-    'は': 'ha', 'ひ': 'hi', 'ふ': 'fu', 'へ': 'he', 'ほ': 'ho',
-    'ま': 'ma', 'み': 'mi', 'む': 'mu', 'め': 'me', 'も': 'mo',
-    'や': 'ya', 'ゆ': 'yu', 'よ': 'yo',
-    'ら': 'ra', 'り': 'ri', 'る': 'ru', 'れ': 're', 'ろ': 'ro',
-    'わ': 'wa', 'を': 'wo', 'ん': 'n',
-}
-    # All Katakanas alphabet
-    katakana_with_translations = {
-    'ア': 'a', 'イ': 'i', 'ウ': 'u', 'エ': 'e', 'オ': 'o',
-    'カ': 'ka', 'キ': 'ki', 'ク': 'ku', 'ケ': 'ke', 'コ': 'ko',
-    'サ': 'sa', 'シ': 'shi', 'ス': 'su', 'セ': 'se', 'ソ': 'so',
-    'タ': 'ta', 'チ': 'chi', 'ツ': 'tsu', 'テ': 'te', 'ト': 'to',
-    'ナ': 'na', 'ニ': 'ni', 'ヌ': 'nu', 'ネ': 'ne', 'ノ': 'no',
-    'ハ': 'ha', 'ヒ': 'hi', 'フ': 'fu', 'ヘ': 'he', 'ホ': 'ho',
-    'マ': 'ma', 'ミ': 'mi', 'ム': 'mu', 'メ': 'me', 'モ': 'mo',
-    'ヤ': 'ya', 'ユ': 'yu', 'ヨ': 'yo',
-    'ラ': 'ra', 'リ': 'ri', 'ル': 'ru', 'レ': 're', 'ロ': 'ro',
-    'ワ': 'wa', 'ヲ': 'wo', 'ン': 'n',
-}
-    match alphabet:
-        case "hiragana": return hiragana_with_translations
-        case "katakana": return katakana_with_translations
-
-
 # Main function that make user to select what he wanna train
 def main():
     system('cls')
@@ -88,7 +55,7 @@ def audio():
         which = input("Que voulez vous entraîner : \n \t ▷ Mots -- 1  \n \t ▷ Phrases -- 2\n")
     match which:
         case "1": train_audio("kanji")
-        case "2": main()
+        case "2": print("Mode non disponible à l'heure actuelle."),sleep(2),main()  
 
 
 # user chose expression mode
@@ -198,7 +165,7 @@ def train_audio(exercice):
         count += 1
         system('cls')
         get_error = False
-        kana = probability(exercice, True, None)
+        kana = probability(exercice, "")
         make_audio(kana[0][0])
         answer = input(f"De quel {exercice} s'agit-il ?".ljust(50) + f"{count}/{how_much}\n".ljust(7))
         while answer != kana[0][1] and answer != kana[0][2]:
@@ -211,15 +178,12 @@ def train_audio(exercice):
                 make_audio(kana[0][0])
             answer = input("Quel kanji s'agit-il ? \n")
             if answer == " ":
-                print(f"{kana[0]} <=> {kana[1][0]}:{kana[1][1]}")
+                print(f"{kana[0][0]} <=> {kana[0][1]}:{kana[0][2]}")
         if not get_error:
             count_good += 1
-            modify_score(exercice, True, kana)
-            modify_taux(exercice, kana)
         else:
             count_error += 1
-            modify_taux(exercice, kana)
-        print(f"{kana[0]} <=> {kana[1][0]}:{kana[1][1]}")
+        print(f"{kana[0][0]} <=> {kana[0][1]}:{kana[0][2]}")
         sleep(2)
     call_stat_session(count_good, count_error, how_much)
     again = input("Voulez-vous recommencer ? \n \t - Oui \n \t - Non \n")
@@ -250,7 +214,7 @@ def train_nombre(exercice):
         count += 1
         system('cls')
         get_error = False
-        scale = randint(1, 999)
+        scale = randint(1, 99999)
         random_number = generate_number_kanji(scale)
         if exercice == "audio":
             make_audio(random_number)
@@ -457,7 +421,7 @@ def get_current_stat(alphabet):
         for j in range(len(n_items)):
             stat += f"{n_items[j][0]}:{n_items[j][1]}%".ljust(15)
         print(stat)
-    next = input("\n")
+    input("\n")
     main()
     
 if __name__ == "__main__":
