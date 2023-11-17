@@ -60,6 +60,9 @@ Ce module va vous permettre de vous entraîner avec les nombres. Il propose 3 fo
 
 Les paramètres vous permettent plusieurs choses :
 - Ajouter des kanji dans le fichier `kanji.csv` afin de les apprendre à leur tour. Pour ce faire, vous devrez entrer le kanji, le romaji et sa traduction sous la forme : `kanji romaji traduction`, avec simplement des espaces entre chaque élément.
+<img width="960" alt="image" src="https://github.com/ZaKaTsuKy/japanese-app/assets/74179251/78ba361d-d8b4-48f4-9e27-ce1bd49a12b9">
+Vous pouvez de cette manière ajouter autant de kanji que vous voulez. Une fois l'opération terminée, validez la en appuyant sur "enter".
+
 - Remettre les compteurs des scores et des taux à 0. 
 - Afficher les statistiques d'apparitions des kana et des kanji.
 
