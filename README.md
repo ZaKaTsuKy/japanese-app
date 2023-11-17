@@ -37,7 +37,7 @@ Module non implémenté à l'heure actuelle.
 
 # Audio
 
-Ce module va vous permettre d'écouter les kanjis présent dans le fichier `kanji.csv` à l'oral et d'écrire ce qu'ils veulent dire en romaji. Si vous n'avez pas compris, vous pouvez laisser le champs vide et directement appuyer sur "enter" pour répéter l'audio, cela n'affectera pas votre taux de réussite. Il sera également possible à l'avenir de le faire avec des phrases, ce module n'est pas encore implémenté.
+Ce module va vous permettre d'écouter les kanjis présent dans le fichier `kanji.csv` à l'oral et d'écrire ce qu'ils veulent dire en romaji. Si vous n'avez pas compris, vous pouvez laisser le champs vide et directement appuyer sur "enter" pour répéter l'audio, cela n'affectera pas votre taux de réussite. Il sera également possible à l'avenir de le faire avec des phrases, ce module n'est pas encore implémenté. Si vous ne savez pas, appuyez sur "espace" puis sur "enter", cela vous affichera la réponse, mais vous aurez faux.
 
 
 # Expression
@@ -82,4 +82,12 @@ En fonction du score est calculé est taux d'apparition. La valeur de ce dernier
 
 Il se peut que sur Windows 10, l'affichage des caractères japonais ne se fassent pas. Le cas échéant, bah rip à vous. 
 Il se peut qu'à l'oral, certains kanji sont pronocés avec leur version sino-japonaise et non purement japonaise. Si cela survient, soit vous changez le romaji associé soit vous laissez.
+
+
+## NB
+
+Le taux d'apparition des kana et des kanji est calculé seulement uniquement dans le mode lecture, avoir faux dans les autres modes n'impacte que faux score final, cela ne change rien dans les différents fichier csv.
+
+
+
 
