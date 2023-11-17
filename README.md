@@ -27,7 +27,7 @@ Pour répondre aux questions écrivez la version romaji et appuyez sur "enter", 
 
 <img width="960" alt="image" src="https://github.com/ZaKaTsuKy/japanese-app/assets/74179251/99e40513-b209-4bb2-9217-ed3327dc45b1">
 
-Si vous bloquez, laissez le champs vide, appuyez sur "enter", cela vous donnera la réponse. Cepedant vous aurez faux. Pour voir les conséquences sur le fait d'avoir faux, rendez-vous [ici](#calculs).
+Si vous bloquez, laissez le champs vide, appuyez sur "enter", cela vous donnera la réponse. Cependant vous aurez faux. Pour voir les conséquences sur le fait d'avoir faux, rendez-vous [ici](#calculs).
 
 
 # Compréhension
