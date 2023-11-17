@@ -5,7 +5,7 @@ Merci de tout lire avant d'utiliser l'application
 
 ## Comment utiliser l'application
 
-Des numéros sont affiliés à chaque option possible. Entrez la numéro puis appuyez sur la touche "enter" du clavier. Vous pouvez ainsi naviguer partout.
+Des numéros sont affiliés à chaque option possible. Entrez le numéro puis appuyez sur la touche "enter" du clavier. Vous pouvez ainsi naviguer partout.
 
 <img width="960" alt="image" src="https://github.com/ZaKaTsuKy/japanese-app/assets/74179251/5095a6ac-7a67-43f2-bfd1-090e07d57c7b">
 
