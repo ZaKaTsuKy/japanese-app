@@ -303,7 +303,7 @@ def modify_taux(alphabet, niveau):
 
 
 # function that select a kana or a kanji with probability
-def probability(alphabet="kanji", niveau=""):
+def probability(alphabet, niveau):
     df = pd.read_csv(f"{alphabet}.csv")
     coeff = 2.75
     if niveau != "":
@@ -381,7 +381,7 @@ def add_kanjis_csv():
             add_data.append(taux)
             add_data.append(niveau)
             writer.writerow(add_data)
-    probability("kanji",False, None, niveau="")
+    probability("kanji", "")
     main()
 
 
