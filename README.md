@@ -6,6 +6,7 @@ Merci de tout lire avant d'utiliser l'application
 ## Comment utiliser l'application
 
 Des numéros sont affiliés à chaque option possible. Entrez la numéro puis appuyez sur la touche "enter" du clavier. Vous pouvez ainsi naviguer partout.
+
 <img width="960" alt="image" src="https://github.com/ZaKaTsuKy/japanese-app/assets/74179251/5095a6ac-7a67-43f2-bfd1-090e07d57c7b">
 
 
@@ -18,9 +19,12 @@ Différents modes sont proposés, ci-après l'explication de chaque mode.
 
 Chaque entraînement vous demandera combien d'éléments vous voudrez dans votre série. Rentrez un entier et appuyez sur "enter".
 Pour l'entraînement à la lecture des kanji, le programme vous demandera de rentrer un niveau de JLPT, si vous ne savez pas ce que c'est, google vous renseignera. Par défaut, laissez vide et tout niveau vous sera proposé. Autrement, rentrez les niveaux que vous avez envie (ex : `4` ou `4 5`, seul les niveaux proposés seront respectivement le JLPT N4 et le JLPT N4 N5).
+
 <img width="960" alt="image" src="https://github.com/ZaKaTsuKy/japanese-app/assets/74179251/06b7bf9a-61ec-44cf-8e17-493b967d41be">
 
+
 Pour répondre aux questions écrivez la version romaji et appuyez sur "enter", autrement cela vous donnera faux.
+
 <img width="960" alt="image" src="https://github.com/ZaKaTsuKy/japanese-app/assets/74179251/99e40513-b209-4bb2-9217-ed3327dc45b1">
 
 Si vous bloquez, laissez le champs vide, appuyez sur "enter", cela vous donnera la réponse. Cepedant vous aurez faux. Pour voir les conséquences sur le fait d'avoir faux, rendez-vous [ici](#calculs).
@@ -48,7 +52,9 @@ Ce module va vous permettre de vous entraîner avec les nombres. Il propose 3 fo
 - Ecriture : Le module va vous écrire un nombre en alphanumérique entre 1 et 99 999, à vous de l'écrire en caractère japonais.
 - Audio : Le module va dire à l'oral un nombre compris entre 1 et 99 999, à vous de l'écrire en alphanumérique.
 **<ins>Exemple</ins>**
+  
 <img width="960" alt="image" src="https://github.com/ZaKaTsuKy/japanese-app/assets/74179251/151d2a93-a636-4b98-a1b8-fcefe57a2464">
+
 
 # Paramètres
 
