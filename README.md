@@ -66,7 +66,7 @@ Les paramètres vous permettent plusieurs choses :
 
 ## Conseils
 
-Si vous êtes débutants, commencez par faire les hiragana. Une fois ceux-ci maîtrisés, passez aux katakana. Et une fois ceux-ci également maîtrisés, vous pouvez passez aux kanji. Ne faîtes rien d'autres tant que les kana ne sont pas maîtrisés à 100%.
+Si vous êtes débutants, commencez par apprendre les hiragana. Une fois ceux-ci maîtrisés, passez aux katakana. Et une fois ceux-ci également maîtrisés, vous pouvez passez aux kanji. Ne faîtes rien d'autres tant que les kana ne sont pas maîtrisés à 100%.
 Dans le fichier `kanji.csv`, vous trouverez une liste par défaut d'une centaine de kanji. Au début, je vous conseille de garder les vingts premiers et d'en rajouter au fur et à mesure. Pour ajouter des kanjis, vous avez deux possibilités :
 - Vous les ajouter manuellement dans le csv (il faut respecter les conventions d'écriture du csv)
 - Vous les ajouter via l'application qui fera tout le travail de normalisation pour vous, voir [comment ajouter des kanji](#paramètres) dans les paramètres.
@@ -89,5 +89,10 @@ Il se peut qu'à l'oral, certains kanji sont pronocés avec leur version sino-ja
 Le taux d'apparition des kana et des kanji est calculé seulement uniquement dans le mode lecture, avoir faux dans les autres modes n'impacte que faux score final, cela ne change rien dans les différents fichier csv.
 
 
+## Ajouts futur
 
+- génération de texte aléatoire
+- Interface graphique 
+- module de conjugaison
+- module de grammaire
 
