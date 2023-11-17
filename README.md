@@ -37,7 +37,7 @@ Module non implémenté à l'heure actuelle.
 
 # Audio
 
-Ce module va vous permettre d'écouter les kanjis présent dans le fichier `kanji.csv` à l'oral et d'écrire ce qu'ils veulent dire en romaji. Si vous n'avez pas compris, vous pouvez laisser le champs vide et directement appuyer sur "enter" pour répéter l'audio, cela n'affectera pas votre taux de réussite. Il sera également possible à l'avenir de le faire avec des phrases, ce module n'est pas encore implémenté. Si vous ne savez pas, appuyez sur "espace" puis sur "enter", cela vous affichera la réponse, mais vous aurez faux.
+Ce module va vous permettre d'écouter les kanjis présent dans le fichier `kanji.csv` à l'oral et d'écrire ce qu'ils veulent dire en romaji. Si vous n'avez pas compris, vous pouvez laisser le champs vide et directement appuyer sur "enter" pour répéter l'audio, cela n'affectera pas votre taux de réussite. Si vous ne savez pas, appuyez sur "espace" puis sur "enter", cela vous affichera la réponse, mais vous aurez faux.. Il sera également possible à l'avenir de le faire avec des phrases, ce module n'est pas encore implémenté. 
 
 
 # Expression
