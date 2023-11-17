@@ -75,12 +75,12 @@ Dans le fichier `kanji.csv`, vous trouverez une liste par défaut d'une centaine
 ## Calculs
 
 A chaque kana et à chaque kanji, un score natif leur est affilié `10`. Lorsque vous avez bon, le score diminue `-2`. Et lorsque vous avez faux, le score augmente `+5`.
-En fonction du score est calculé est taux d'apparition. La valeur de ce dernier influe donc sur le taux d'apparition de tous les kana et kanji. Plus vous avez faux, plus le taux d'apparition va augmenter, plus vous allez tomber sur celui-c, plus vous allez vous entraîner, mieux vous allez le mémoriser, plus vous arez bon, moins il apparaitra, etc.
+En fonction du score est calculé le taux d'apparition. La valeur de ce dernier influe donc sur le taux d'apparition de tous les kana et kanji. Plus vous avez faux, plus le taux d'apparition va augmenter, plus vous allez tomber sur celui-c, plus vous allez vous entraîner, mieux vous allez le mémoriser, plus vous aurez bon, moins il apparaitra, etc.
 
 
 ## Problèmes connus
 
-Il se peut que sur Windows 10, l'affichage des caractères japonais ne se fassent pas. Le cas échéant, bah rip à vous. 
+Il se peut que sous Windows 10, l'affichage des caractères japonais ne se fassent pas. Le cas échéant, bah rip à vous. Etat inconnu sous MacOS et Linux.
 Il se peut qu'à l'oral, certains kanji sont pronocés avec leur version sino-japonaise et non purement japonaise. Si cela survient, soit vous changez le romaji associé soit vous laissez.
 
 
@@ -95,4 +95,5 @@ Le taux d'apparition des kana et des kanji est calculé seulement uniquement dan
 - Interface graphique 
 - module de conjugaison
 - module de grammaire
+- Implémentation d'une IA ayant une voix artificielle japonaise réaliste.
 
