@@ -59,7 +59,7 @@ Ce module va vous permettre de vous entraîner avec les nombres. Il propose 3 fo
 # Paramètres
 
 Les paramètres vous permettent plusieurs choses :
-- Ajouter des kanjis. Pour ce faire, vous devrez entrer le kanji, le romaji et sa traduction sous la forme : `kanji romaji traduction`, avec simplement des espaces entre chaque élément.
+- Ajouter des kanji dans le fichier `kanji.csv` afin de les apprendre à leur tour. Pour ce faire, vous devrez entrer le kanji, le romaji et sa traduction sous la forme : `kanji romaji traduction`, avec simplement des espaces entre chaque élément.
 - Remettre les compteurs des scores et des taux à 0. 
 - Afficher les statistiques d'apparitions des kana et des kanji.
 
