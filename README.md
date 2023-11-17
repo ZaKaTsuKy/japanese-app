@@ -32,7 +32,7 @@ Si vous bloquez, laissez le champs vide, appuyez sur "enter", cela vous donnera 
 
 # Compréhension
 
-Module non implémentée à l'heure actuelle. 
+Module non implémenté à l'heure actuelle. 
 
 
 # Audio
@@ -42,7 +42,7 @@ Ce module va vous permettre d'écouter les kanjis de votre liste à l'oral et d'
 
 # Expression
 
-Module non implémentée à l'heure actuelle. 
+Module non implémenté à l'heure actuelle. 
 
 
 # Nombre
