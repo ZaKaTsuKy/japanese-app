@@ -13,7 +13,7 @@ Il y est nécessaire de posséder certaines librairies (et bien évidemment pyth
 
 ## Comment utiliser l'application
 
-Allez dans le dossier contenant les différents fichiers via le terminal, puis lancez l'application en faisant `py mimi4.py`. Des numéros sont affiliés à chaque option possible. Entrez le numéro puis appuyez sur la touche "enter" du clavier. Vous pouvez ainsi naviguer partout.
+Allez dans le dossier contenant les différents fichiers via le terminal, puis lancez l'application en faisant `py mimi4.py`. Des numéros sont affiliés à chaque option possible. Entrez le numéro puis appuyez sur la touche `enter` du clavier. Vous pouvez ainsi naviguer partout.
 
 <img width="960" alt="image" src="https://github.com/ZaKaTsuKy/japanese-app/assets/74179251/5095a6ac-7a67-43f2-bfd1-090e07d57c7b">
 
@@ -25,17 +25,17 @@ Différents modes sont proposés, ci-après l'explication de chaque mode.
 
 # Lecture 
 
-Chaque entraînement vous demandera combien d'éléments (Hiragana, Katakana, Kanji) vous voudrez dans votre série. Rentrez un entier et appuyez sur "enter".
+Chaque entraînement vous demandera combien d'éléments (Hiragana, Katakana, Kanji) vous voudrez dans votre série. Rentrez un entier et appuyez sur `enter`.
 Pour l'entraînement à la lecture des kanji, le programme vous demandera de rentrer un niveau de JLPT, si vous ne savez pas ce que c'est, google vous renseignera. Par défaut, laissez vide et tout niveau vous sera proposé. Autrement, rentrez les niveaux que vous avez envie (ex : `4` ou `4 5`, seuls les niveaux proposés seront respectivement le JLPT N4 et le JLPT N4 N5).
 
 <img width="960" alt="image" src="https://github.com/ZaKaTsuKy/japanese-app/assets/74179251/06b7bf9a-61ec-44cf-8e17-493b967d41be">
 
 
-Pour répondre aux questions écrivez la version romaji et appuyez sur "enter", autrement cela vous donnera faux.
+Pour répondre aux questions écrivez la version romaji et appuyez sur `enter`, autrement cela vous donnera faux.
 
 <img width="960" alt="image" src="https://github.com/ZaKaTsuKy/japanese-app/assets/74179251/99e40513-b209-4bb2-9217-ed3327dc45b1">
 
-Si vous bloquez, laissez le champs vide, appuyez sur "enter", cela vous donnera la réponse. Cependant vous aurez faux. Pour voir les conséquences sur le fait d'avoir faux, rendez-vous [ici](#calculs).
+Si vous bloquez, laissez le champs vide, appuyez sur `enter`, cela vous donnera la réponse. Cependant vous aurez faux. Pour voir les conséquences sur le fait d'avoir faux, rendez-vous [ici](#calculs).
 
 
 # Compréhension
@@ -45,7 +45,7 @@ Module non implémenté à l'heure actuelle.
 
 # Audio
 
-Ce module va vous permettre d'écouter les kanjis présent dans le fichier `kanji.csv` à l'oral et d'écrire ce qu'ils veulent dire en romaji. Si vous n'avez pas compris, vous pouvez laisser le champs vide et directement appuyer sur "enter" pour répéter l'audio, cela n'affectera pas votre taux de réussite. Si vous ne savez pas, appuyez sur "espace" puis sur "enter", cela vous affichera la réponse, mais vous aurez faux.. Il sera également possible à l'avenir de le faire avec des phrases, ce module n'est pas encore implémenté. 
+Ce module va vous permettre d'écouter les kanjis présent dans le fichier `kanji.csv` à l'oral et d'écrire ce qu'ils veulent dire en romaji. Si vous n'avez pas compris, vous pouvez laisser le champs vide et directement appuyer sur `enter` pour répéter l'audio, cela n'affectera pas votre taux de réussite. Si vous ne savez pas, appuyez sur `espace` puis sur `enter`, cela vous affichera la réponse, mais vous aurez faux.. Il sera également possible à l'avenir de le faire avec des phrases, ce module n'est pas encore implémenté. 
 
 
 # Expression
@@ -69,7 +69,7 @@ Ce module va vous permettre de vous entraîner avec les nombres. Il propose 3 fo
 Les paramètres vous permettent plusieurs choses :
 - Ajouter des kanji dans le fichier `kanji.csv` afin de les apprendre à leur tour. Pour ce faire, vous devrez entrer le kanji, le romaji et sa traduction sous la forme : `kanji romaji traduction`, avec simplement des espaces entre chaque élément.
 <img width="960" alt="image" src="https://github.com/ZaKaTsuKy/japanese-app/assets/74179251/78ba361d-d8b4-48f4-9e27-ce1bd49a12b9">
-Vous pouvez de cette manière ajouter autant de kanji que vous voulez. Une fois l'opération terminée, validez la en appuyant sur "enter".
+Vous pouvez de cette manière ajouter autant de kanji que vous voulez. Une fois l'opération terminée, validez la en appuyant sur `enter`.
 
 - Remettre les compteurs des scores et des taux à 0. 
 - Afficher les statistiques d'apparitions des kana et des kanji.
