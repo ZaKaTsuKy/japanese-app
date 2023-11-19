@@ -82,7 +82,7 @@ Dans le fichier `kanji.csv`, vous trouverez une liste par défaut d'une centaine
 ## Calculs
 
 A chaque kana et à chaque kanji, un score natif leur est affilié `10`. Lorsque vous avez bon, le score diminue `-2`. Et lorsque vous avez faux, le score augmente `+5`.
-En fonction du score est calculé le taux d'apparition. La valeur de ce dernier influe donc sur le taux d'apparition de tous les kana et kanji. Plus vous avez faux, plus le taux d'apparition va augmenter, plus vous allez tomber sur celui-c, plus vous allez vous entraîner, mieux vous allez le mémoriser, plus vous aurez bon, moins il apparaitra, etc.
+En fonction du score est calculé le taux d'apparition. La valeur de ce dernier influe donc sur le taux d'apparition de tous les kana et kanji. Plus vous avez faux sur un kana/kanji, plus son taux d'apparition va augmenter, plus vous allez tomber sur celui-ci, plus vous allez vous entraîner dessus, mieux vous allez le mémoriser, plus vous aurez bon, moins il apparaitra, etc.
 
 
 ## Problèmes connus
