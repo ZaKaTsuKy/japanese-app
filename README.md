@@ -1,6 +1,7 @@
 # Application d'aide à l'apprentissage du japonais
 
-Merci de tout lire avant d'utiliser l'application
+Merci de tout lire avant d'utiliser l'application.
+Cette application a été crééedans un cadre personnel dans deux buts précis. Premièrement m'aider à apprendre le japonais en m'entraînant quotidiennent avec les kanji et d'autres que j'immplémenterai à l'avenir afin d'avoir l'application la plus complète et autonome possible. La seconde chose est d'implémenter des modules d'automatisation et d'intelligence artificielle afin de développer mes compétences dans le domaine. L'utilisation de mon code est disponible à qui veut, vous pouvez le modifier comme vous voulez mais aucune démarche commerciale dessus n'est tolérée.
 
 ## Installation des librairies
 
