@@ -88,7 +88,7 @@ En fonction du score est calculé le taux d'apparition. La valeur de ce dernier 
 ## Problèmes connus
 
 Il se peut que sous Windows 10, l'affichage des caractères japonais ne se fassent pas. Le cas échéant, bah rip à vous. Etat inconnu sous MacOS et Linux.
-Il se peut qu'à l'oral, certains kanji sont pronocés avec leur version sino-japonaise et non purement japonaise. Si cela survient, soit vous changez le romaji associé soit vous laissez.
+Il se peut qu'à l'oral, certains kanji sont pronocés avec leur version kunyomi ou onyomi, cependant dans le fichier `kanji.cscv`, seul l'un des deux est présent. Si cela survient, soit vous changez le romaji associé soit vous laissez.
 
 
 ## NB
