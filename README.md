@@ -4,7 +4,7 @@ Merci de tout lire avant d'utiliser l'application
 
 ## Installation des librairies
 
-Il y est nécessaire de posséder certaines librairies. Pour ce faire, une fois le git téléchargé, rendez-vous via le terminal dans le dossier contenant le `requirements.txt` et tapez `pip install -r requirements.txt`. Cela installera les librairies manquantes nécessaires.
+Il y est nécessaire de posséder certaines librairies (et bien évidemment python 3.10+). Pour ce faire, une fois le git téléchargé, rendez-vous via le terminal dans le dossier contenant le `requirements.txt` et tapez `pip install -r requirements.txt`. Cela installera les librairies manquantes nécessaires.
 
 
 ## Comment utiliser l'application
