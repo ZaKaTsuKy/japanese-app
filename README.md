@@ -102,10 +102,12 @@ Le taux d'apparition des kana et des kanji est calculé seulement et uniquement 
 
 ## Ajouts futur
 
+Ceci représente les ajouts que j'ai prévu d'apporter dans un futur plus ou moins proche. La liste n'étant pas exhaustive, d'autres peuvent également arriver. Ces ajouts ne sont pas triés que ça soit par ordre de priorité ou d'arrivée.
+
 - génération de texte aléatoire
 - Interface graphique 
 - module de conjugaison
 - module de grammaire
 - Implémentation d'une IA ayant une voix artificielle japonaise réaliste.
-- Un milliere de kanji trié par niveau nécessaire au passage du JLPT avec leur lecture onyomi et kunyomi.
+- Un millier de kanji triés par niveau nécessaire au passage des 5 niveaux JLPT avec leur lecture onyomi et kunyomi.
 
