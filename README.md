@@ -21,7 +21,7 @@ Différents modes sont proposés, ci-après l'explication de chaque mode.
 
 # Lecture 
 
-Chaque entraînement vous demandera combien d'éléments vous voudrez dans votre série. Rentrez un entier et appuyez sur "enter".
+Chaque entraînement vous demandera combien d'éléments (Hiragana, Katakana, Kanji) vous voudrez dans votre série. Rentrez un entier et appuyez sur "enter".
 Pour l'entraînement à la lecture des kanji, le programme vous demandera de rentrer un niveau de JLPT, si vous ne savez pas ce que c'est, google vous renseignera. Par défaut, laissez vide et tout niveau vous sera proposé. Autrement, rentrez les niveaux que vous avez envie (ex : `4` ou `4 5`, seul les niveaux proposés seront respectivement le JLPT N4 et le JLPT N4 N5).
 
 <img width="960" alt="image" src="https://github.com/ZaKaTsuKy/japanese-app/assets/74179251/06b7bf9a-61ec-44cf-8e17-493b967d41be">
