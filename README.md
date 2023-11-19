@@ -93,7 +93,7 @@ Il se peut qu'à l'oral, certains kanji sont pronocés avec leur version kunyomi
 
 ## NB
 
-Le taux d'apparition des kana et des kanji est calculé seulement uniquement dans le mode lecture, avoir faux dans les autres modes n'impacte que faux score final, cela ne change rien dans les différents fichier csv.
+Le taux d'apparition des kana et des kanji est calculé seulement et uniquement dans le mode lecture, avoir faux dans les autres modes n'impacte que faux score final qui est affiché, cela ne change rien dans les différents fichier csv.
 
 
 ## Ajouts futur
