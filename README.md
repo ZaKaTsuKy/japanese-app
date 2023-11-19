@@ -77,7 +77,7 @@ Si vous êtes débutants, commencez par apprendre les hiragana. Une fois ceux-ci
 Dans le fichier `kanji.csv`, vous trouverez une liste par défaut d'une centaine de kanji. Au début, je vous conseille de garder les vingts premiers et d'en rajouter au fur et à mesure. Pour ajouter des kanjis, vous avez deux possibilités :
 - Vous les ajouter manuellement dans le csv (il faut respecter les conventions d'écriture du csv)
 - Vous les ajouter via l'application qui fera tout le travail de normalisation pour vous, voir [comment ajouter des kanji](#paramètres) dans les paramètres.
-
+Je vous conseille également d'installer le clavier japonais windows, il vous sera utile dans certains modules.
 
 ## Calculs
 
