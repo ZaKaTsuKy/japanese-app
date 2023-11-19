@@ -9,7 +9,7 @@ Il y est nécessaire de posséder certaines librairies (et bien évidemment pyth
 
 ## Comment utiliser l'application
 
-Des numéros sont affiliés à chaque option possible. Entrez le numéro puis appuyez sur la touche "enter" du clavier. Vous pouvez ainsi naviguer partout.
+Allez dans le dossier contenant les différents fichiers via le terminal, puis lancez l'application en faisant `py mimi4.py`. Des numéros sont affiliés à chaque option possible. Entrez le numéro puis appuyez sur la touche "enter" du clavier. Vous pouvez ainsi naviguer partout.
 
 <img width="960" alt="image" src="https://github.com/ZaKaTsuKy/japanese-app/assets/74179251/5095a6ac-7a67-43f2-bfd1-090e07d57c7b">
 
