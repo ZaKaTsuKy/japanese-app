@@ -103,4 +103,5 @@ Le taux d'apparition des kana et des kanji est calculé seulement uniquement dan
 - module de conjugaison
 - module de grammaire
 - Implémentation d'une IA ayant une voix artificielle japonaise réaliste.
+- Un milliere de kanji trié par niveau nécessaire au passage du JLPT avec leur lecture onyomi et kunyomi.
 
