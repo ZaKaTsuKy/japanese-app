@@ -299,20 +299,24 @@ def modify_score(alphabet, isUp, kana):
     df.to_csv(f"{alphabet}.csv", index=False)
     
 
-# function that modify taux in the csv's
+# function that modify taux in the csv
 def modify_taux(alphabet, jlpt):
-    if alphabet == "kanji":
-        jlpt = jlpt.split() if len(jlpt) > 1 else list(jlpt)
-        for i in range(len(jlpt)):
-            jlpt[i] = int(jlpt[i])
     df = pd.read_csv(f"{alphabet}.csv")
-    modify_probabilities = probability(f"{alphabet}", jlpt)
-    for j in range(len(df)):
-        if alphabet == "kanji":
-            if df.loc[j, 'JLPT'] == jlpt:
-                df.loc[j, 'taux'] = modify_probabilities[2][j]
-        else:
-            df.loc[j, 'taux'] = modify_probabilities[2][j]
+    modify_probabilities = probability(alphabet, jlpt) # get les id de tous les jlpt concernés
+    jlpt = jlpt.split() if len(jlpt) > 1 else list(jlpt) # converti en liste de int
+    for i in range(len(jlpt)):
+        jlpt[i] = int(jlpt[i])
+    if alphabet == "kanji": # si kanji mode activated
+        id_list = []
+        for i in range(len(df)): # parcours le csv depuis le début
+            if df.loc[i, 'JLPT'] in jlpt: # Si le jlpt est dans la liste des jlpt
+                id_list.append(i) # Ajoute l'id dans la liste  des id à changer
+        for j in range(len(id_list)): # Parcourt des id récupérés
+            for id in id_list: # pour chaque id dans la liste des id
+                df.loc[id, 'taux'] = modify_probabilities[2][j] # change par la nouvelle valeur
+    else:
+        for k in range(len(df)):
+            df.loc[k, 'taux'] = modify_probabilities[2][k] # si kanji to katakana
     df.to_csv(f"{alphabet}.csv", index=False)
 
 
@@ -329,9 +333,9 @@ def probability(alphabet, jlpt):
         if jlpt != "":
             if df.loc[j, 'JLPT'] in jlpt:
                 kanji = df.loc[j, alphabet]
-                onyomi = df.loc[j, 'onyomi']
+                onyomi = df.loc[j, 'onyomi'].split()
                 if alphabet == "kanji":
-                    kunyomi = df.loc[j, 'kunyomi']
+                    kunyomi = df.loc[j, 'kunyomi'].split()
                     meaning = df.loc[j, 'meaning']
                 data.append([kanji, onyomi, kunyomi, meaning, j] if alphabet == "kanji" else [kanji, onyomi, j])
                 score.append(df.loc[j, 'score'])
