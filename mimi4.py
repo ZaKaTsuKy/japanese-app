@@ -409,13 +409,13 @@ def add_kanjis_csv():
 def reset_scores_taux(alphabet, score=9):
     df = pd.read_csv(f"{alphabet}.csv")
     counter5, counter4, counter3, counter2 = 0, 0, 0, 0
-    for i in range(len(df)):
-        match df.loc[i, 'JLPT']:
-            case 5.0: counter5 += 1
-            case 4.0: counter4 += 1
-            case 3.0: counter3 += 1
-            case 2.0: counter2 += 1
-    
+    if alphabet == "kanji":
+        for i in range(len(df)):
+            match df.loc[i, 'JLPT']:
+                case 5.0: counter5 += 1
+                case 4.0: counter4 += 1
+                case 3.0: counter3 += 1
+                case 2.0: counter2 += 1
     for i in range(len(df)):
         df.loc[i, 'score'] = score
         if alphabet != "kanji":
