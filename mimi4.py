@@ -310,10 +310,10 @@ def modify_taux(alphabet, jlpt):
         id_list = []
         for i in range(len(df)): # parcours le csv depuis le début
             if df.loc[i, 'JLPT'] in jlpt: # Si le jlpt est dans la liste des jlpt
-                id_list.append(i) # Ajoute l'id dans la liste  des id à changer
+                id_list.append(i+1) # Ajoute l'id dans la liste  des id à changer
+        # Objectif : parcourir chaque id de la liste des id et changer cette valeur par la nouvelle valeur
         for j in range(len(id_list)): # Parcourt des id récupérés
-            for id in id_list: # pour chaque id dans la liste des id
-                df.loc[id, 'taux'] = modify_probabilities[2][j] # change par la nouvelle valeur
+            df.loc[id_list[j], 'taux'] = modify_probabilities[2][j] # change par la nouvelle valeur
     else:
         for k in range(len(df)):
             df.loc[k, 'taux'] = modify_probabilities[2][k] # si kanji to katakana
@@ -333,17 +333,17 @@ def probability(alphabet, jlpt):
         if jlpt != "":
             if df.loc[j, 'JLPT'] in jlpt:
                 kanji = df.loc[j, alphabet]
-                onyomi = df.loc[j, 'onyomi'].split()
+                onyomi = df.loc[j, 'onyomi']
                 if alphabet == "kanji":
-                    kunyomi = df.loc[j, 'kunyomi'].split()
+                    kunyomi = df.loc[j, 'kunyomi']
                     meaning = df.loc[j, 'meaning']
                 data.append([kanji, onyomi, kunyomi, meaning, j] if alphabet == "kanji" else [kanji, onyomi, j])
                 score.append(df.loc[j, 'score'])
         else:
             kanji = df.loc[j, alphabet]
-            onyomi = str(df.loc[j, 'onyomi']).split()
+            onyomi = str(df.loc[j, 'onyomi'])
             if alphabet == "kanji":
-                kunyomi = df.loc[j, 'kunyomi'].split()
+                kunyomi = df.loc[j, 'kunyomi']
                 meaning = df.loc[j, 'meaning']
             data.append([kanji, onyomi, kunyomi, meaning, j] if alphabet == "kanji" else [kanji, onyomi, j])
             score.append(df.loc[j, 'score'])
