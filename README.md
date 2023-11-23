@@ -109,5 +109,8 @@ Ceci représente les ajouts que j'ai prévu d'apporter dans un futur plus ou moi
 - module de conjugaison
 - module de grammaire
 - Implémentation d'une IA ayant une voix artificielle japonaise réaliste.
+
+## Derniers ajouts
 - Un millier de kanji triés par niveau nécessaire au passage des 5 niveaux JLPT avec leur lecture onyomi et kunyomi.
+- Optimsiation du code
 
