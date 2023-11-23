@@ -13,8 +13,8 @@ from itertools import islice
 # Main function that make user to select what he wanna train
 def main():
     system('cls')
-    which = input("Que voulez vous étudier : \n \t ▷ Lecture        -- 1  \n \t ▷ Compréhension  -- 2  \n \t ▷ Audio          -- 3  \n \t ▷ Expression     -- 4 \n \t ▷ Nombre         -- 5 \n \t ▷ Paramètres     -- 6\n")
-    while which not in ["1", "2", "3", "4", "5", "6"]:
+    which = input("Que voulez vous étudier : \n \t ▷ Lecture        -- 1  \n \t ▷ Compréhension  -- 2  \n \t ▷ Audio          -- 3  \n \t ▷ Expression     -- 4 \n \t ▷ Nombre         -- 5 \n\t ▷ Grammaire      -- 6 \n\t ▷ Conjugaison    -- 7 \n \t ▷ Paramètres     -- 8\n")
+    while which not in ["1", "2", "3", "4", "5", "6", "7", "8"]:
         print("Non valide.")
         which = input("Que voulez vous étudier : \n \t ▷ Lecture        -- 1  \n \t ▷ Compréhension  -- 2  \n \t ▷ Audio          -- 3  \n \t ▷ Expression     -- 4 \n \t ▷ Nombre         -- 5 \n \t ▷ Paramètres     -- 6\n")
     match which:
@@ -23,7 +23,9 @@ def main():
         case "3": audio()
         case "4": expression()
         case "5": nombre()
-        case "6": parametres()
+        case "6": train_lecture("grammaire")
+        case "7": conjugaison()
+        case "8": parametres()
 
 
 # user chose lecture mode
@@ -117,38 +119,41 @@ def statistiques():
         case "2": get_current_stat("katakana")
         case "3": get_current_stat("kanji")
     
+      
+def conjugaison():
+    print("Mode en cours de construction.")
+    sleep(2)
+    main()  
             
 # function that makes user to learn kanas and kanjis
 def train_lecture(exercice):
     system('cls')
     count_error, count_good, count = 0, 0, 0
-    how_much = int(input("Combien de {} voulez-vous pour vous entraîner ? \n".format(exercice)))
-    level_target = input("Un niveau de JLPT particulier ?\n") if exercice == "kanji" else ""
+    how_much = int(input("Combien d'exercices de {} voulez-vous pour vous entraîner ? \n".format(exercice)))
+    level_target = input("Un jlpt de JLPT particulier ?\n") if exercice == "kanji" else ""
     for i in range(int(how_much)):
         count += 1
         system('cls')
         get_error = False
         kana = probability(exercice, level_target)
-        answer = input(f"De quel {exercice} s'agit-il ? {kana[0][0]}".ljust(50) + f"{count}/{how_much}\n".ljust(7))
-        while answer != kana[0][1]:
-            if answer == "":
-                print(f"{kana[0][0]} <=> {kana[0][1]}" if exercice != "kanji" else f"{kana[0][0]} <=> {kana[0][1]} : {kana[0][2]}")
-                answer = input("De quel kana s'agit-il ? {} \n".format(kana[0][0]))
-            else:
-                answer = input("Faux ! De quel kana s'agit-il ? {} \n".format(kana[0][0]))
+        answer = input(f"De quel {exercice} s'agit-il ? {kana[0][0]}".ljust(30) + f"{count}/{how_much}\n".ljust(7))
+        while answer not in kana[0][1] and answer not in kana[0][2] and answer != "":
+            answer = input("Faux ! De quel kana s'agit-il ? {} \n".format(kana[0][0]))
             get_error = True
-        print(f"{kana[0][0]} <=> {kana[0][1]}" if exercice != "kanji" else f"{kana[0][0]} <=> {kana[0][1]} : {kana[0][2]}")
+        if answer == "":
+            get_error = True
+        print(f"{kana[0][0]} <=> {kana[0][1]}" if exercice != "kanji" else f"Kanji : {kana[0][0]} \nOnyomi : {kana[0][1]} \nKunyomi : {kana[0][2]} \nTraduction : {kana[0][3]}")
         if not get_error:
             count_good += 1
             modify_score(exercice, True, kana)
-            if level_target == "":
+            if not (level_target == "" and exercice == "kanji"):
                 modify_taux(exercice, level_target)
         else:
             count_error += 1
             modify_score(exercice, False, kana)
-            if level_target == "":
+            if not (level_target == "" and exercice == "kanji"):
                 modify_taux(exercice, level_target)
-        sleep(1)
+        sleep(4 if exercice == "kanji" else 2)
     call_stat_session(count_good, count_error, how_much)
     again = input("Voulez-vous recommencer ? \n \t - Oui \n \t - Non \n")
     match again:
@@ -167,8 +172,8 @@ def train_audio(exercice):
         get_error = False
         kana = probability(exercice, "")
         make_audio(kana[0][0])
-        answer = input(f"De quel {exercice} s'agit-il ?".ljust(50) + f"{count}/{how_much}\n".ljust(7))
-        while answer != kana[0][1] and answer != kana[0][2]:
+        answer = input(f"De quel {exercice} s'agit-il ?".ljust(30) + f"{count}/{how_much}\n".ljust(7))
+        while answer not in kana[0][1] and answer not in kana[0][2] and answer != " ":
             if answer != "":
                 get_error = True
                 count_error += 1
@@ -177,14 +182,15 @@ def train_audio(exercice):
                 sleep(1)
                 make_audio(kana[0][0])
             answer = input("Quel kanji s'agit-il ? \n")
-            if answer == " ":
-                print(f"{kana[0][0]} <=> {kana[0][1]}:{kana[0][2]}")
+        if answer == " ":
+            get_error = True
+            print(f"Kanji : {kana[0][0]} \nOnyomi : {kana[0][1]} \nKunyomi : {kana[0][2]} \nTraduction : {kana[0][3]}")
         if not get_error:
             count_good += 1
         else:
             count_error += 1
-        print(f"{kana[0][0]} <=> {kana[0][1]}:{kana[0][2]}")
-        sleep(2)
+        #print(f"Kanji : {kana[0][0]} \nOnyomi : {kana[0][1]} \nKunyomi : {kana[0][2]} \nTraduction : {kana[0][3]}")
+        sleep(4)
     call_stat_session(count_good, count_error, how_much)
     again = input("Voulez-vous recommencer ? \n \t - Oui \n \t - Non \n")
     match again:
@@ -294,40 +300,50 @@ def modify_score(alphabet, isUp, kana):
     
 
 # function that modify taux in the csv's
-def modify_taux(alphabet, niveau):
+def modify_taux(alphabet, jlpt):
+    if alphabet == "kanji":
+        jlpt = jlpt.split() if len(jlpt) > 1 else list(jlpt)
+        for i in range(len(jlpt)):
+            jlpt[i] = int(jlpt[i])
     df = pd.read_csv(f"{alphabet}.csv")
-    modify_probabilities = probability(f"{alphabet}", niveau)
-    for i in range(len(df)):
-        df.loc[i, 'taux'] = modify_probabilities[2][i]
+    modify_probabilities = probability(f"{alphabet}", jlpt)
+    for j in range(len(df)):
+        if alphabet == "kanji":
+            if df.loc[j, 'JLPT'] == jlpt:
+                df.loc[j, 'taux'] = modify_probabilities[2][j]
+        else:
+            df.loc[j, 'taux'] = modify_probabilities[2][j]
     df.to_csv(f"{alphabet}.csv", index=False)
 
 
 # function that select a kana or a kanji with probability
-def probability(alphabet, niveau):
+def probability(alphabet, jlpt):
     df = pd.read_csv(f"{alphabet}.csv")
     coeff = 2.75
-    if niveau != "":
-        niveau = niveau.split() if len(niveau) > 1 else list(niveau)
-        for i in range(len(niveau)):
-            niveau[i] = int(niveau[i])
+    if jlpt != "":
+        jlpt = jlpt.split() if len(jlpt) > 1 else list(jlpt)
+        for i in range(len(jlpt)):
+            jlpt[i] = int(jlpt[i])
     data, score, = [], []
     for j in range(len(df)):
-        if niveau != "":
-            if df.loc[j, 'niveau'] in niveau:
+        if jlpt != "":
+            if df.loc[j, 'JLPT'] in jlpt:
                 kanji = df.loc[j, alphabet]
-                romaji = df.loc[j, 'romaji']
+                onyomi = df.loc[j, 'onyomi']
                 if alphabet == "kanji":
-                    francais = df.loc[j, 'francais']
-                data.append([kanji, romaji, francais, j] if alphabet == "kanji" else [kanji, romaji, j])
+                    kunyomi = df.loc[j, 'kunyomi']
+                    meaning = df.loc[j, 'meaning']
+                data.append([kanji, onyomi, kunyomi, meaning, j] if alphabet == "kanji" else [kanji, onyomi, j])
                 score.append(df.loc[j, 'score'])
         else:
             kanji = df.loc[j, alphabet]
-            romaji = df.loc[j, 'romaji']
+            onyomi = str(df.loc[j, 'onyomi']).split()
             if alphabet == "kanji":
-                francais = df.loc[j, 'francais']
-            data.append([kanji, romaji, francais, j] if alphabet == "kanji" else [kanji, romaji, j])
+                kunyomi = df.loc[j, 'kunyomi'].split()
+                meaning = df.loc[j, 'meaning']
+            data.append([kanji, onyomi, kunyomi, meaning, j] if alphabet == "kanji" else [kanji, onyomi, j])
             score.append(df.loc[j, 'score'])
-            
+    #print(data)        
     total, weight = 0, []
     for i in range(len(data)):
         total += ceil(score[i]*coeff)
@@ -353,7 +369,7 @@ def call_stat_session(count_good, count_error, how_much):
  
 # add several data in kanji csv 
 def add_kanjis_csv():
-    stop, data_to_insert, score, taux, niveau = False, [], 10, 0.0, "N5"
+    stop, data_to_insert, score, taux, jlpt = False, [], 10, 0.0, "N5"
     while not stop:
         system('cls')
         add = input("Entrez le kanji, le romaji et sa traduction sous la forme : kanji romaji traduction\n")
@@ -379,18 +395,33 @@ def add_kanjis_csv():
             add_data.append(data[2])
             add_data.append(score)
             add_data.append(taux)
-            add_data.append(niveau)
+            add_data.append(jlpt)
             writer.writerow(add_data)
-    probability("kanji", "")
+    probability("kanji",False, None, jlpt="")
     main()
 
 
 # write all kana in csv
-def reset_scores_taux(alphabet, score=15):
+def reset_scores_taux(alphabet, score=9):
     df = pd.read_csv(f"{alphabet}.csv")
+    counter5, counter4, counter3, counter2 = 0, 0, 0, 0
+    for i in range(len(df)):
+        match df.loc[i, 'JLPT']:
+            case 5.0: counter5 += 1
+            case 4.0: counter4 += 1
+            case 3.0: counter3 += 1
+            case 2.0: counter2 += 1
+    
     for i in range(len(df)):
         df.loc[i, 'score'] = score
-        df.loc[i, 'taux'] = round(100/len(df), 3)
+        if alphabet != "kanji":
+            df.loc[i, 'taux'] = round(100/len(df), 3)
+        else:
+            match df.loc[i, 'JLPT']:
+                case 5.0: df.loc[i, 'taux'] = round(100/counter5, 3)
+                case 4.0: df.loc[i, 'taux'] = round(100/counter4, 3)
+                case 3.0: df.loc[i, 'taux'] = round(100/counter3, 3)
+                case 2.0: df.loc[i, 'taux'] = round(100/counter2, 3)
     df.to_csv(f"{alphabet}.csv", index=False)
     print("Data reseted successfully.")
     sleep(1)
