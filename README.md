@@ -108,6 +108,7 @@ Ceci représente les ajouts que j'ai prévu d'apporter dans un futur plus ou moi
 - Interface graphique 
 - module de conjugaison
 - module de grammaire
+- module de vocabulaire
 - Implémentation d'une IA ayant une voix artificielle japonaise réaliste.
 
 ## Derniers ajouts
