@@ -1,251 +1,251 @@
 id,kanji,onyomi,kunyomi,meaning,score,taux,JLPT
-1,日,"nichi, jitsu","hi, -bi, -ka","day, sun, Japan, counter, for, days",9.0,1.243,5.0
-2,一,ichi,hitotsu,one,7.0,1.201,5.0
-3,国,koku,kuni,country,7.0,0.961,5.0
-4,人,"jin, nin",hito,person,9.0,0.961,5.0
-5,年,nen,toshi,"year, counter, for, years",9.0,1.201,5.0
-6,大,"dai, tai",ookii,"large, big",9.0,1.201,5.0
-7,十,juu,"tou, to","ten, 10",9.0,1.201,5.0
-8,二,"ni, ji",futatsu,"two, 2",7.0,1.201,5.0
-9,本,hon,moto,"book, present, true, counter, for, long, cylindrical, things",9.0,0.961,5.0
-10,中,chuu,"naka, uchi, ataru","in, inside, middle, mean, center",7.0,1.201,5.0
-11,長,chou,"nagai, osa","long, leader, superior, senior",9.0,0.961,5.0
-12,出,"shutsu, sui","deru, dasu, ideru","exit, leave, go, out",9.0,1.201,5.0
-13,三,san,mitsu,"three, 3",9.0,1.201,5.0
-14,時,ji,"toki, doki","time, hour",9.0,1.201,5.0
-15,行,"kou, gyou, an","iku, yuku, okonau","going, journey, carry, out, line, row",14.0,1.201,5.0
-16,見,ken,"miru, miseru","see, hopes, chances, idea, opinion, look, at, visible",9.0,1.874,5.0
-17,月,"getsu, gatsu",tsuki,"month, moon",9.0,1.201,5.0
-18,分,"bun, fun, bu",wakeru,"part, minute, of, time, understand",9.0,1.201,5.0
-19,後,"go, kou","nochi, ushiro, ato","behind, back, later",9.0,1.201,5.0
-20,前,zen,mae,"in, front, before",9.0,1.201,5.0
-21,生,"sei, shou","ikiru, umu, ou, haeru, nama","life, genuine, birth",19.0,1.201,5.0
-22,五,go,itsutsu,"five, 5",9.0,2.547,5.0
-23,間,"kan, ken","aida, ma, ai","interval, space",9.0,1.201,5.0
-24,上,"jou, shou, shan","ue, uwa, kami, ageru, noboru, tatematsuru","above, up",9.0,1.201,5.0
-25,東,tou,higashi,east,9.0,1.201,5.0
-26,四,shi,"yotsu, yon","four, 4",9.0,1.201,5.0
-27,今,"kon, kin",ima,"now;, the, present",9.0,1.201,5.0
-28,金,"kin, kon, gon","kane, kana, gane",gold,9.0,1.201,5.0
-29,九,"kyuu, ku",kokonotsu,"nine, 9",9.0,1.201,5.0
-30,入,nyuu,"iru, hairu","enter, insert",9.0,1.201,5.0
-31,学,gaku,manabu,"study, learning, science",9.0,1.201,5.0
-32,高,kou,takai,"tall, high, expensive",9.0,1.201,5.0
-33,円,en,marui,"circle, yen, round",7.0,1.201,5.0
-34,子,"shi, su, tsu","ko, ne",child,9.0,0.961,5.0
-35,外,"gai, ge","soto, hoka, hazu-, to-",outside,9.0,1.201,5.0
-36,八,hachi,"yatsu, you","eight, 8",7.0,1.201,5.0
-37,六,roku,"mutsu, mui","six, 6",7.0,0.961,5.0
-38,下,"ka, ge","shita, shimo, moto, sageru, kudaru, orosu","below, down, descend, give, low, inferior",9.0,0.961,5.0
-39,来,"rai, tai","kuru, kitaru, ki, ko","come, due, next, cause, become",14.0,1.201,5.0
-40,気,"ki, ke",iki,"spirit, mind, air, atmosphere, mood",9.0,1.874,5.0
-41,小,shou,"chiisai, ko-, o-, sa-","little, small",9.0,1.201,5.0
-42,七,shichi,"nanatsu, nano","seven, 7",9.0,1.201,5.0
-43,山,"san, sen",yama,mountain,7.0,1.201,5.0
-44,話,wa,"hanasu, hanashi","tale, talk",9.0,0.961,5.0
-45,女,jo,"onnna, me","woman, female",9.0,1.201,5.0
-46,北,hoku,kita,north,9.0,1.201,5.0
-47,午,go,uma,"noon, sign, of, the, horse",9.0,1.201,5.0
-48,百,"hyaku, byaku",momo,hundred,9.0,1.201,5.0
-49,書,sho,kaku,write,9.0,1.201,5.0
-50,先,sen,"saki, mazu","before, ahead, previous, future, precedence",9.0,1.201,5.0
-51,名,"mei, myou",na,"name, noted, distinguished, reputation",9.0,1.201,5.0
-52,川,sen,kawa,"river, stream",9.0,1.201,5.0
-53,千,sen,chi,thousand,9.0,1.201,5.0
-54,水,sui,mizu,water,9.0,1.201,5.0
-55,半,han,nakaba,"half, middle, odd, number, semi-",9.0,1.201,5.0
-56,男,"dan, nan","otoko, o","male;, man",9.0,1.201,5.0
-57,西,"sei, sai",nishi,west,19.0,1.201,5.0
-58,電,den,/,"electricity;, electric, powered",9.0,2.547,5.0
-59,校,kou,/,"school, exam",14.0,1.201,5.0
-60,語,go,kataru,"word, speech, language",9.0,1.874,5.0
-61,土,"do, to",tsuchi,"soil, earth, ground",7.0,1.201,5.0
-62,木,"boku, moku","ki, ko","tree, wood",9.0,0.961,5.0
-63,聞,"bun, mon",kiku,"to, hear;, to, listen;, to, ask",9.0,1.201,5.0
-64,食,"shoku, jiki","ku, taberu, hamu","eat, food",9.0,1.201,5.0
-65,車,sha,kuruma,"car, wheel",9.0,1.201,5.0
-66,何,ka,"nani, nan",what,9.0,1.201,5.0
-67,南,"nan, na",minami,south,9.0,1.201,5.0
-68,万,"man, ban",/,"ten, thousand, 10,000",9.0,1.201,5.0
-69,毎,mai,gotoni,every,14.0,1.201,5.0
-70,白,"haku, byaku",shiroi,white,9.0,1.874,5.0
-71,天,ten,amatsu,"heavens, sky, imperial",9.0,1.201,5.0
-72,母,bo,"haha, kaa",mother,9.0,1.201,5.0
-73,火,ka,"hi, bi, ho",fire,9.0,1.201,5.0
-74,右,"u, yuu",migi,"right, direction",14.0,1.201,5.0
-75,読,"doku, toku, tou",yomu,"to, read",9.0,1.874,5.0
-76,友,yuu,tomo,friend,9.0,1.201,5.0
-77,左,"sa, sha",hidari,left,9.0,1.201,5.0
-78,休,kyuu,yasumu,"rest, day, off, retire, sleep",9.0,1.201,5.0
-79,父,fu,"chichi, tou",father,9.0,1.201,5.0
-80,雨,u,"ame, ama",rain,9.0,1.201,5.0
-81,会,kai,au,"meeting;, meet",9.0,1.201,4.0
-82,同,dou,onaji,"same, agree, equal",9.0,0.576,4.0
-83,事,ji,koto,"matter, thing, fact, business, reason, possibly",9.0,0.576,4.0
-84,自,"ji, shi",/,oneself,14.0,0.576,4.0
-85,社,sha,yashiro,"company, firm, office, association, shrine",9.0,0.576,4.0
-86,発,"hatsu, hotsu",/,"departure, discharge, emit, start, from",9.0,0.576,4.0
-87,者,sha,mono,"someone, person",9.0,0.576,4.0
-88,地,"chi, ji",/,"ground, earth",14.0,0.576,4.0
-89,業,gyou,waza,"business, vocation, arts, performance",9.0,0.576,4.0
-90,方,hou,kata,"direction, person, alternative",9.0,0.576,4.0
-91,新,shin,"atarashii, arata",new,9.0,0.576,4.0
-92,場,jou,ba,"location, place",9.0,0.576,4.0
-93,員,in,/,"employee, member, number, the, one, in, charge",9.0,0.576,4.0
-94,立,ritsu,tatsu,"stand, up, rise",9.0,0.576,4.0
-95,開,kai,"hiraku, akeru","open, unfold, unseal",9.0,0.576,4.0
-96,手,shu,te,hand,9.0,0.576,4.0
-97,力,"ryoku, riki",chikara,"power, strength, strong, strain, bear, up, exert",9.0,0.576,4.0
-98,問,mon,tou,"question, ask, problem",9.0,0.576,4.0
-99,代,dai,kawari,"substitute, change, convert, replace, period",9.0,0.576,4.0
-100,明,"mei, myou",akarui,"bright, light",9.0,0.576,4.0
-101,動,dou,ugoku,"move, motion, change",9.0,0.576,4.0
-102,京,"kyou, kei, kin",miyako,capital,9.0,0.576,4.0
-103,目,"moku, boku",me,"eye, class, look, insight, experience",9.0,0.576,4.0
-104,通,tsuu,"tooru, kayou","traffic, pass, through, avenue, commute",9.0,0.576,4.0
-105,言,"gen, gon","iu, koto","say, word",9.0,0.576,4.0
-106,理,ri,/,"logic, arrangement, reason, justice, truth",9.0,0.576,4.0
-107,体,tai,karada,"body, substance, object, reality",9.0,0.576,4.0
-108,田,den,ta,"rice, field, rice, paddy",9.0,0.576,4.0
-109,主,shu,"nushi, omo","lord, chief, master, main, thing, principal",9.0,0.576,4.0
-110,題,dai,/,"topic, subject",9.0,0.576,4.0
-111,意,i,/,"idea, mind, heart, taste, thought",9.0,0.576,4.0
-112,不,"fu, bu",/,"negative, non-, bad",9.0,0.576,4.0
-113,作,"saku, sa",tsukuru,"make, production, prepare, build",9.0,0.576,4.0
-114,用,you,mochiiru,"utilize, business, service, use, employ",9.0,0.576,4.0
-115,度,"do, taku","tabi, tai","degrees, occurrence, time, counter, for, occurrences",9.0,0.576,4.0
-116,強,"kyou, gou",tsuyoi,strong,9.0,0.576,4.0
-117,公,kou,/,"public, prince, official, governmental",9.0,0.576,4.0
-118,持,ji,motsu,"hold, have",9.0,0.576,4.0
-119,野,ya,no,"plains, field, rustic, civilian, life",9.0,0.576,4.0
-120,以,i,motte,"by, means, of, because, in, view, of, compared, with",9.0,0.576,4.0
-121,思,shi,/,think,9.0,0.576,4.0
-122,家,ka,"ie, ya, uchi","house, home, family, professional, expert",9.0,0.576,4.0
-123,世,"sei, se",yo,"generation, world, society, public",9.0,0.576,4.0
-124,多,ta,ooi,"many, frequent, much",9.0,0.576,4.0
-125,正,"sei, shou","tadashii, masani","correct, justice, righteous",9.0,0.576,4.0
-126,安,an,yasui,"safe, peaceful, cheap",9.0,0.576,4.0
-127,院,in,/,"institution, temple, mansion, school",9.0,0.576,4.0
-128,心,shin,kokoro,"heart, mind, spirit",9.0,0.576,4.0
-129,界,kai,/,"world, boundary",9.0,0.576,4.0
-130,教,kyou,"oshieru, osowaru","teach, faith, doctrine",9.0,0.576,4.0
-131,文,"bun, mon",fumi,"sentence, literature, style, art",14.0,0.576,4.0
-132,元,"gen, gan",moto,"beginning, former, time, origin",9.0,0.576,4.0
-133,重,"juu, chou","omoi, kasaneru","heavy, important, esteem, respect",9.0,0.576,4.0
-134,近,kin,chikai,"near, early, akin, tantamount",9.0,0.576,4.0
-135,考,kou,kangaeru,"consider, think, over",9.0,0.576,4.0
-136,画,"ga, kaku",kakusuru,"brush-stroke, picture",9.0,0.576,4.0
-137,海,kai,umi,"sea, ocean",9.0,0.576,4.0
-138,売,bai,uru,sell,9.0,0.576,4.0
-139,知,chi,shiru,"know, wisdom",9.0,0.576,4.0
-140,道,dou,michi,"road-way, street, district, journey, course",9.0,0.576,4.0
-141,集,shuu,atsumeru,"gather, meet",9.0,0.576,4.0
-142,別,betsu,"wakareru, wakeru","separate, branch, off, diverge",9.0,0.576,4.0
-143,物,"butsu, motsu",mono,"thing, object, matter",9.0,0.576,4.0
-144,使,shi,tsukau,"use, order, messenger, ambassador",9.0,0.576,4.0
-145,品,hin,shina,"goods, refinement, dignity, article",9.0,0.576,4.0
-146,計,kei,hakaru,"plot, plan, scheme, measure",9.0,0.576,4.0
-147,死,shi,shinu,"death, die",9.0,0.576,4.0
-148,特,toku,/,special,9.0,0.576,4.0
-149,私,shi,"watakushi, watashi","private, I, me",9.0,0.576,4.0
-150,始,shi,hajimeru,"commence, begin",9.0,0.576,4.0
-151,朝,chou,asa,morning,9.0,0.576,4.0
-152,運,un,hakobu,"carry, luck, destiny, fate, transport",9.0,0.576,4.0
-153,終,shuu,owaru,"end, finish",9.0,0.576,4.0
-154,台,"dai, tai",utena,"pedestal, a, stand, counter, for, machines, and, vehicles",9.0,0.576,4.0
-155,広,kou,hiroi,"wide, broad, spacious",9.0,0.576,4.0
-156,住,"juu, chuu",sumu,"dwell, reside, live, inhabit",9.0,0.576,4.0
-157,無,"mu, bu",nai,"nothingness, /, ""aint,"", nothing, nil, not",9.0,0.576,4.0
-158,真,shin,"ma, makoto","true, reality, Buddhist, sect",9.0,0.576,4.0
-159,有,"yuu, u",aru,"possess, have, exist, happen",9.0,0.576,4.0
-160,口,kou,kuchi,mouth,9.0,0.576,4.0
-161,少,shou,"sukunai, sukoshi","few, little",9.0,0.576,4.0
-162,町,chou,machi,"town, village, block, street",14.0,0.576,4.0
-163,料,ryou,/,"fee, materials",9.0,0.576,4.0
-164,工,"kou, ku, gu",/,"craft, construction",9.0,0.576,4.0
-165,建,"ken, kon",tateru,build,9.0,0.576,4.0
-166,空,kuu,"sora, kara, aku, suku, munashii","empty, sky, void, vacant, vacuum",9.0,0.576,4.0
-167,急,kyuu,isogu,"hurry, emergency, sudden, steep",9.0,0.576,4.0
-168,止,shi,"tomaru, todomaru, yameru, yosu","stop, halt",9.0,0.576,4.0
-169,送,sou,okuru,"escort, send",9.0,0.576,4.0
-170,切,"setsu, sai",kiru,"cut, cutoff, be, sharp",9.0,0.576,4.0
-171,転,ten,korogaru,"revolve, turn, around, change",14.0,0.576,4.0
-172,研,ken,togu,"polish, study, of, sharpen",9.0,0.576,4.0
-173,足,soku,"ashi, tariru","leg, foot, be, sufficient",9.0,0.576,4.0
-174,究,kyuu,/,"research, study",9.0,0.576,4.0
-175,楽,"gaku, raku",tanoshii,"music, comfort, ease",9.0,0.576,4.0
-176,起,ki,"okiru, okosu","wake, up, get, up;, rouse",9.0,0.576,4.0
-177,着,chaku,"kiru, tsuku","arrive, wear, counter, for, suits, of, clothing",9.0,0.576,4.0
-178,店,ten,mise,"store, shop",9.0,0.576,4.0
-179,病,byou,yamu,"ill, sick",9.0,0.576,4.0
-180,質,"shitsu, shichi","tachi, tadasu","substance, quality, matter, temperament",9.0,0.576,4.0
-181,待,tai,matsu,"wait, depend, on",14.0,0.576,4.0
-182,試,shi,"kokoromiru, tamesu","test, try, attempt, experiment",9.0,0.576,4.0
-183,族,zoku,/,"tribe, family",9.0,0.576,4.0
-184,銀,gin,/,silver,9.0,0.576,4.0
-185,早,"sou, sa",hayai,"early, fast",9.0,0.576,4.0
-186,映,ei,"utsuru, haeru","reflect, reflection, projection",9.0,0.576,4.0
-187,親,shin,"oya, shitashii","parent, intimacy, relative, familiarity",9.0,0.576,4.0
-188,験,ken,/,"verification, effect, testing",9.0,0.576,4.0
-189,英,ei,/,"England, English, hero, outstanding",9.0,0.576,4.0
-190,医,i,/,"doctor, medicine",9.0,0.576,4.0
-191,仕,shi,/,"attend, doing, official, serve",9.0,0.576,4.0
-192,去,"kyo, ko",saru,"gone, past, quit, leave, elapse, eliminate",9.0,0.576,4.0
-193,味,mi,aji,"flavor, taste",9.0,0.576,4.0
-194,写,sha,utsuru,"copy, be, photographed, describe",9.0,0.576,4.0
-195,字,ji,/,"character, letter, word",9.0,0.576,4.0
-196,答,tou,kotaeru,"solution, answer",9.0,0.576,4.0
-197,夜,ya,"yo, yoru","night, evening",9.0,0.576,4.0
-198,音,on,"oto, ne","sound, noise",9.0,0.576,4.0
-199,注,chuu,"sosogu, sasu, tsugu","pour, irrigate, shed, tears, flow, into, concentrate, on",14.0,0.576,4.0
-200,帰,ki,"kaeru, kaesu","homecoming, arrive, at, lead, to, result, in",9.0,0.576,4.0
-201,古,ko,furui,old,9.0,0.576,4.0
-202,歌,ka,"uta, utau","song, sing",9.0,0.576,4.0
-203,買,bai,kau,buy,9.0,0.576,4.0
-204,悪,aku,warui,"bad, evil, wrong",9.0,0.576,4.0
-205,図,"zu, to",hakaru,"map, drawing, plan, extraordinary",14.0,0.576,4.0
-206,週,shuu,/,week,9.0,0.576,4.0
-207,室,shitsu,muro,"room, apartment, chamber, greenhouse, cellar",9.0,0.576,4.0
-208,歩,"ho, bu","aruku, ayumu","walk, counter, for, steps",9.0,0.576,4.0
-209,風,"fuu, fu","kaze, kaza-","wind, air, style, manner",9.0,0.576,4.0
-210,紙,shi,kami,paper,14.0,0.576,4.0
-211,黒,koku,kuro,black,9.0,0.576,4.0
-212,花,"ka, ke",hana,flower,9.0,0.576,4.0
-213,春,shun,haru,spring,9.0,0.576,4.0
-214,赤,"seki, shaku",akai,red,14.0,0.576,4.0
-215,青,"sei, shou",aoi,blue,14.0,0.576,4.0
-216,館,kan,yakata,"building, mansion, large, building, palace",9.0,0.576,4.0
-217,屋,oku,ya,"roof, house, shop, dealer, seller",9.0,0.576,4.0
-218,色,"shoku, shiki",iro,color,9.0,0.576,4.0
-219,走,sou,hashiru,run,9.0,0.576,4.0
-220,秋,shuu,aki,"autumn, fall",9.0,0.576,4.0
-221,夏,"ka, ge",natsu,summer,9.0,0.576,4.0
-222,習,shuu,narau,learn,9.0,0.576,4.0
-223,駅,eki,/,station,9.0,0.576,4.0
-224,洋,you,/,"ocean, sea, foreign, Western, style",9.0,0.576,4.0
-225,旅,ryo,tabi,"trip, travel",9.0,0.576,4.0
-226,服,fuku,/,"clothing, admit, obey",9.0,0.576,4.0
-227,夕,yuu,/,evening,9.0,0.576,4.0
-228,借,shaku,kariru,"borrow, rent",9.0,0.576,4.0
-229,曜,you,/,weekday,9.0,0.576,4.0
-230,飲,in,nomu,drink,9.0,0.576,4.0
-231,肉,niku,/,meat,14.0,0.576,4.0
-232,貸,tai,"kasu, kashi",lend,9.0,0.576,4.0
-233,堂,dou,/,"public, chamber, hall",9.0,0.576,4.0
-234,鳥,chou,tori,"bird, chicken",9.0,0.576,4.0
-235,飯,han,meshi,"meal, rice",9.0,0.576,4.0
-236,勉,ben,tsutomeru,"exertion, endeavor, effort",9.0,0.576,4.0
-237,冬,tou,fuyu,winter,9.0,0.576,4.0
-238,昼,chuu,hiru,"daytime, noon",9.0,0.576,4.0
-239,茶,"cha, sa",/,tea,9.0,0.576,4.0
-240,弟,"tei, dai, de",otouto,"younger, brother",9.0,0.576,4.0
-241,牛,gyuu,ushi,cow,14.0,0.576,4.0
-242,魚,gyo,"uo, sakana",fish,9.0,0.576,4.0
-243,兄,"kyou, kei",ani,"elder, brother",9.0,0.576,4.0
-244,犬,ken,inu,dog,9.0,0.576,4.0
-245,妹,mai,imouto,"younger, sister",9.0,0.576,4.0
-246,姉,shi,ane,"elder, sister",9.0,0.576,4.0
-247,漢,kan,/,China,9.0,0.576,4.0
+1,日,"nichi, jitsu","hi, -bi, -ka","day, sun, Japan, counter, for, days",9.0,1.25,5.0
+2,一,ichi,hitotsu,one,9.0,1.25,5.0
+3,国,koku,kuni,country,9.0,1.25,5.0
+4,人,"jin, nin",hito,person,9.0,1.25,5.0
+5,年,nen,toshi,"year, counter, for, years",9.0,1.25,5.0
+6,大,"dai, tai",ookii,"large, big",9.0,1.25,5.0
+7,十,juu,"tou, to","ten, 10",9.0,1.25,5.0
+8,二,"ni, ji",futatsu,"two, 2",9.0,1.25,5.0
+9,本,hon,moto,"book, present, true, counter, for, long, cylindrical, things",9.0,1.25,5.0
+10,中,chuu,"naka, uchi, ataru","in, inside, middle, mean, center",9.0,1.25,5.0
+11,長,chou,"nagai, osa","long, leader, superior, senior",9.0,1.25,5.0
+12,出,"shutsu, sui","deru, dasu, ideru","exit, leave, go, out",9.0,1.25,5.0
+13,三,san,mitsu,"three, 3",9.0,1.25,5.0
+14,時,ji,"toki, doki","time, hour",9.0,1.25,5.0
+15,行,"kou, gyou, an","iku, yuku, okonau","going, journey, carry, out, line, row",9.0,1.25,5.0
+16,見,ken,"miru, miseru","see, hopes, chances, idea, opinion, look, at, visible",9.0,1.25,5.0
+17,月,"getsu, gatsu",tsuki,"month, moon",9.0,1.25,5.0
+18,分,"bun, fun, bu",wakeru,"part, minute, of, time, understand",9.0,1.25,5.0
+19,後,"go, kou","nochi, ushiro, ato","behind, back, later",9.0,1.25,5.0
+20,前,zen,mae,"in, front, before",9.0,1.25,5.0
+21,生,"sei, shou","ikiru, umu, ou, haeru, nama","life, genuine, birth",9.0,1.25,5.0
+22,五,go,itsutsu,"five, 5",9.0,1.25,5.0
+23,間,"kan, ken","aida, ma, ai","interval, space",9.0,1.25,5.0
+24,上,"jou, shou, shan","ue, uwa, kami, ageru, noboru, tatematsuru","above, up",9.0,1.25,5.0
+25,東,tou,higashi,east,9.0,1.25,5.0
+26,四,shi,"yotsu, yon","four, 4",9.0,1.25,5.0
+27,今,"kon, kin",ima,"now;, the, present",9.0,1.25,5.0
+28,金,"kin, kon, gon","kane, kana, gane",gold,9.0,1.25,5.0
+29,九,"kyuu, ku",kokonotsu,"nine, 9",9.0,1.25,5.0
+30,入,nyuu,"iru, hairu","enter, insert",9.0,1.25,5.0
+31,学,gaku,manabu,"study, learning, science",9.0,1.25,5.0
+32,高,kou,takai,"tall, high, expensive",9.0,1.25,5.0
+33,円,en,marui,"circle, yen, round",9.0,1.25,5.0
+34,子,"shi, su, tsu","ko, ne",child,9.0,1.25,5.0
+35,外,"gai, ge","soto, hoka, hazu-, to-",outside,9.0,1.25,5.0
+36,八,hachi,"yatsu, you","eight, 8",9.0,1.25,5.0
+37,六,roku,"mutsu, mui","six, 6",9.0,1.25,5.0
+38,下,"ka, ge","shita, shimo, moto, sageru, kudaru, orosu","below, down, descend, give, low, inferior",9.0,1.25,5.0
+39,来,"rai, tai","kuru, kitaru, ki, ko","come, due, next, cause, become",9.0,1.25,5.0
+40,気,"ki, ke",iki,"spirit, mind, air, atmosphere, mood",9.0,1.25,5.0
+41,小,shou,"chiisai, ko-, o-, sa-","little, small",9.0,1.25,5.0
+42,七,shichi,"nanatsu, nano","seven, 7",9.0,1.25,5.0
+43,山,"san, sen",yama,mountain,9.0,1.25,5.0
+44,話,wa,"hanasu, hanashi","tale, talk",9.0,1.25,5.0
+45,女,jo,"onnna, me","woman, female",9.0,1.25,5.0
+46,北,hoku,kita,north,9.0,1.25,5.0
+47,午,go,uma,"noon, sign, of, the, horse",9.0,1.25,5.0
+48,百,"hyaku, byaku",momo,hundred,9.0,1.25,5.0
+49,書,sho,kaku,write,9.0,1.25,5.0
+50,先,sen,"saki, mazu","before, ahead, previous, future, precedence",9.0,1.25,5.0
+51,名,"mei, myou",na,"name, noted, distinguished, reputation",9.0,1.25,5.0
+52,川,sen,kawa,"river, stream",9.0,1.25,5.0
+53,千,sen,chi,thousand,9.0,1.25,5.0
+54,水,sui,mizu,water,9.0,1.25,5.0
+55,半,han,nakaba,"half, middle, odd, number, semi-",9.0,1.25,5.0
+56,男,"dan, nan","otoko, o","male;, man",9.0,1.25,5.0
+57,西,"sei, sai",nishi,west,9.0,1.25,5.0
+58,電,den,/,"electricity;, electric, powered",9.0,1.25,5.0
+59,校,kou,/,"school, exam",9.0,1.25,5.0
+60,語,go,kataru,"word, speech, language",9.0,1.25,5.0
+61,土,"do, to",tsuchi,"soil, earth, ground",9.0,1.25,5.0
+62,木,"boku, moku","ki, ko","tree, wood",9.0,1.25,5.0
+63,聞,"bun, mon",kiku,"to, hear;, to, listen;, to, ask",9.0,1.25,5.0
+64,食,"shoku, jiki","ku, taberu, hamu","eat, food",9.0,1.25,5.0
+65,車,sha,kuruma,"car, wheel",9.0,1.25,5.0
+66,何,ka,"nani, nan",what,9.0,1.25,5.0
+67,南,"nan, na",minami,south,9.0,1.25,5.0
+68,万,"man, ban",/,"ten, thousand, 10,000",9.0,1.25,5.0
+69,毎,mai,gotoni,every,9.0,1.25,5.0
+70,白,"haku, byaku",shiroi,white,9.0,1.25,5.0
+71,天,ten,amatsu,"heavens, sky, imperial",9.0,1.25,5.0
+72,母,bo,"haha, kaa",mother,9.0,1.25,5.0
+73,火,ka,"hi, bi, ho",fire,9.0,1.25,5.0
+74,右,"u, yuu",migi,"right, direction",9.0,1.25,5.0
+75,読,"doku, toku, tou",yomu,"to, read",9.0,1.25,5.0
+76,友,yuu,tomo,friend,9.0,1.25,5.0
+77,左,"sa, sha",hidari,left,9.0,1.25,5.0
+78,休,kyuu,yasumu,"rest, day, off, retire, sleep",9.0,1.25,5.0
+79,父,fu,"chichi, tou",father,9.0,1.25,5.0
+80,雨,u,"ame, ama",rain,9.0,1.25,5.0
+81,会,kai,au,"meeting;, meet",9.0,0.599,4.0
+82,同,dou,onaji,"same, agree, equal",9.0,0.599,4.0
+83,事,ji,koto,"matter, thing, fact, business, reason, possibly",9.0,0.599,4.0
+84,自,"ji, shi",/,oneself,9.0,0.599,4.0
+85,社,sha,yashiro,"company, firm, office, association, shrine",9.0,0.599,4.0
+86,発,"hatsu, hotsu",/,"departure, discharge, emit, start, from",9.0,0.599,4.0
+87,者,sha,mono,"someone, person",9.0,0.599,4.0
+88,地,"chi, ji",/,"ground, earth",9.0,0.599,4.0
+89,業,gyou,waza,"business, vocation, arts, performance",9.0,0.599,4.0
+90,方,hou,kata,"direction, person, alternative",9.0,0.599,4.0
+91,新,shin,"atarashii, arata",new,9.0,0.599,4.0
+92,場,jou,ba,"location, place",9.0,0.599,4.0
+93,員,in,/,"employee, member, number, the, one, in, charge",9.0,0.599,4.0
+94,立,ritsu,tatsu,"stand, up, rise",9.0,0.599,4.0
+95,開,kai,"hiraku, akeru","open, unfold, unseal",9.0,0.599,4.0
+96,手,shu,te,hand,9.0,0.599,4.0
+97,力,"ryoku, riki",chikara,"power, strength, strong, strain, bear, up, exert",9.0,0.599,4.0
+98,問,mon,tou,"question, ask, problem",9.0,0.599,4.0
+99,代,dai,kawari,"substitute, change, convert, replace, period",9.0,0.599,4.0
+100,明,"mei, myou",akarui,"bright, light",9.0,0.599,4.0
+101,動,dou,ugoku,"move, motion, change",9.0,0.599,4.0
+102,京,"kyou, kei, kin",miyako,capital,9.0,0.599,4.0
+103,目,"moku, boku",me,"eye, class, look, insight, experience",9.0,0.599,4.0
+104,通,tsuu,"tooru, kayou","traffic, pass, through, avenue, commute",9.0,0.599,4.0
+105,言,"gen, gon","iu, koto","say, word",9.0,0.599,4.0
+106,理,ri,/,"logic, arrangement, reason, justice, truth",9.0,0.599,4.0
+107,体,tai,karada,"body, substance, object, reality",9.0,0.599,4.0
+108,田,den,ta,"rice, field, rice, paddy",9.0,0.599,4.0
+109,主,shu,"nushi, omo","lord, chief, master, main, thing, principal",9.0,0.599,4.0
+110,題,dai,/,"topic, subject",9.0,0.599,4.0
+111,意,i,/,"idea, mind, heart, taste, thought",9.0,0.599,4.0
+112,不,"fu, bu",/,"negative, non-, bad",9.0,0.599,4.0
+113,作,"saku, sa",tsukuru,"make, production, prepare, build",9.0,0.599,4.0
+114,用,you,mochiiru,"utilize, business, service, use, employ",9.0,0.599,4.0
+115,度,"do, taku","tabi, tai","degrees, occurrence, time, counter, for, occurrences",9.0,0.599,4.0
+116,強,"kyou, gou",tsuyoi,strong,9.0,0.599,4.0
+117,公,kou,/,"public, prince, official, governmental",9.0,0.599,4.0
+118,持,ji,motsu,"hold, have",9.0,0.599,4.0
+119,野,ya,no,"plains, field, rustic, civilian, life",9.0,0.599,4.0
+120,以,i,motte,"by, means, of, because, in, view, of, compared, with",9.0,0.599,4.0
+121,思,shi,/,think,9.0,0.599,4.0
+122,家,ka,"ie, ya, uchi","house, home, family, professional, expert",9.0,0.599,4.0
+123,世,"sei, se",yo,"generation, world, society, public",9.0,0.599,4.0
+124,多,ta,ooi,"many, frequent, much",9.0,0.599,4.0
+125,正,"sei, shou","tadashii, masani","correct, justice, righteous",9.0,0.599,4.0
+126,安,an,yasui,"safe, peaceful, cheap",9.0,0.599,4.0
+127,院,in,/,"institution, temple, mansion, school",9.0,0.599,4.0
+128,心,shin,kokoro,"heart, mind, spirit",9.0,0.599,4.0
+129,界,kai,/,"world, boundary",9.0,0.599,4.0
+130,教,kyou,"oshieru, osowaru","teach, faith, doctrine",9.0,0.599,4.0
+131,文,"bun, mon",fumi,"sentence, literature, style, art",9.0,0.599,4.0
+132,元,"gen, gan",moto,"beginning, former, time, origin",9.0,0.599,4.0
+133,重,"juu, chou","omoi, kasaneru","heavy, important, esteem, respect",9.0,0.599,4.0
+134,近,kin,chikai,"near, early, akin, tantamount",9.0,0.599,4.0
+135,考,kou,kangaeru,"consider, think, over",9.0,0.599,4.0
+136,画,"ga, kaku",kakusuru,"brush-stroke, picture",9.0,0.599,4.0
+137,海,kai,umi,"sea, ocean",9.0,0.599,4.0
+138,売,bai,uru,sell,9.0,0.599,4.0
+139,知,chi,shiru,"know, wisdom",9.0,0.599,4.0
+140,道,dou,michi,"road-way, street, district, journey, course",9.0,0.599,4.0
+141,集,shuu,atsumeru,"gather, meet",9.0,0.599,4.0
+142,別,betsu,"wakareru, wakeru","separate, branch, off, diverge",9.0,0.599,4.0
+143,物,"butsu, motsu",mono,"thing, object, matter",9.0,0.599,4.0
+144,使,shi,tsukau,"use, order, messenger, ambassador",9.0,0.599,4.0
+145,品,hin,shina,"goods, refinement, dignity, article",9.0,0.599,4.0
+146,計,kei,hakaru,"plot, plan, scheme, measure",9.0,0.599,4.0
+147,死,shi,shinu,"death, die",9.0,0.599,4.0
+148,特,toku,/,special,9.0,0.599,4.0
+149,私,shi,"watakushi, watashi","private, I, me",9.0,0.599,4.0
+150,始,shi,hajimeru,"commence, begin",9.0,0.599,4.0
+151,朝,chou,asa,morning,9.0,0.599,4.0
+152,運,un,hakobu,"carry, luck, destiny, fate, transport",9.0,0.599,4.0
+153,終,shuu,owaru,"end, finish",9.0,0.599,4.0
+154,台,"dai, tai",utena,"pedestal, a, stand, counter, for, machines, and, vehicles",9.0,0.599,4.0
+155,広,kou,hiroi,"wide, broad, spacious",9.0,0.599,4.0
+156,住,"juu, chuu",sumu,"dwell, reside, live, inhabit",9.0,0.599,4.0
+157,無,"mu, bu",nai,"nothingness, /, ""aint,"", nothing, nil, not",9.0,0.599,4.0
+158,真,shin,"ma, makoto","true, reality, Buddhist, sect",9.0,0.599,4.0
+159,有,"yuu, u",aru,"possess, have, exist, happen",9.0,0.599,4.0
+160,口,kou,kuchi,mouth,9.0,0.599,4.0
+161,少,shou,"sukunai, sukoshi","few, little",9.0,0.599,4.0
+162,町,chou,machi,"town, village, block, street",9.0,0.599,4.0
+163,料,ryou,/,"fee, materials",9.0,0.599,4.0
+164,工,"kou, ku, gu",/,"craft, construction",9.0,0.599,4.0
+165,建,"ken, kon",tateru,build,9.0,0.599,4.0
+166,空,kuu,"sora, kara, aku, suku, munashii","empty, sky, void, vacant, vacuum",9.0,0.599,4.0
+167,急,kyuu,isogu,"hurry, emergency, sudden, steep",9.0,0.599,4.0
+168,止,shi,"tomaru, todomaru, yameru, yosu","stop, halt",9.0,0.599,4.0
+169,送,sou,okuru,"escort, send",9.0,0.599,4.0
+170,切,"setsu, sai",kiru,"cut, cutoff, be, sharp",9.0,0.599,4.0
+171,転,ten,korogaru,"revolve, turn, around, change",9.0,0.599,4.0
+172,研,ken,togu,"polish, study, of, sharpen",9.0,0.599,4.0
+173,足,soku,"ashi, tariru","leg, foot, be, sufficient",9.0,0.599,4.0
+174,究,kyuu,/,"research, study",9.0,0.599,4.0
+175,楽,"gaku, raku",tanoshii,"music, comfort, ease",9.0,0.599,4.0
+176,起,ki,"okiru, okosu","wake, up, get, up;, rouse",9.0,0.599,4.0
+177,着,chaku,"kiru, tsuku","arrive, wear, counter, for, suits, of, clothing",9.0,0.599,4.0
+178,店,ten,mise,"store, shop",9.0,0.599,4.0
+179,病,byou,yamu,"ill, sick",9.0,0.599,4.0
+180,質,"shitsu, shichi","tachi, tadasu","substance, quality, matter, temperament",9.0,0.599,4.0
+181,待,tai,matsu,"wait, depend, on",9.0,0.599,4.0
+182,試,shi,"kokoromiru, tamesu","test, try, attempt, experiment",9.0,0.599,4.0
+183,族,zoku,/,"tribe, family",9.0,0.599,4.0
+184,銀,gin,/,silver,9.0,0.599,4.0
+185,早,"sou, sa",hayai,"early, fast",9.0,0.599,4.0
+186,映,ei,"utsuru, haeru","reflect, reflection, projection",9.0,0.599,4.0
+187,親,shin,"oya, shitashii","parent, intimacy, relative, familiarity",9.0,0.599,4.0
+188,験,ken,/,"verification, effect, testing",9.0,0.599,4.0
+189,英,ei,/,"England, English, hero, outstanding",9.0,0.599,4.0
+190,医,i,/,"doctor, medicine",9.0,0.599,4.0
+191,仕,shi,/,"attend, doing, official, serve",9.0,0.599,4.0
+192,去,"kyo, ko",saru,"gone, past, quit, leave, elapse, eliminate",9.0,0.599,4.0
+193,味,mi,aji,"flavor, taste",9.0,0.599,4.0
+194,写,sha,utsuru,"copy, be, photographed, describe",9.0,0.599,4.0
+195,字,ji,/,"character, letter, word",9.0,0.599,4.0
+196,答,tou,kotaeru,"solution, answer",9.0,0.599,4.0
+197,夜,ya,"yo, yoru","night, evening",9.0,0.599,4.0
+198,音,on,"oto, ne","sound, noise",9.0,0.599,4.0
+199,注,chuu,"sosogu, sasu, tsugu","pour, irrigate, shed, tears, flow, into, concentrate, on",9.0,0.599,4.0
+200,帰,ki,"kaeru, kaesu","homecoming, arrive, at, lead, to, result, in",9.0,0.599,4.0
+201,古,ko,furui,old,9.0,0.599,4.0
+202,歌,ka,"uta, utau","song, sing",9.0,0.599,4.0
+203,買,bai,kau,buy,9.0,0.599,4.0
+204,悪,aku,warui,"bad, evil, wrong",9.0,0.599,4.0
+205,図,"zu, to",hakaru,"map, drawing, plan, extraordinary",9.0,0.599,4.0
+206,週,shuu,/,week,9.0,0.599,4.0
+207,室,shitsu,muro,"room, apartment, chamber, greenhouse, cellar",9.0,0.599,4.0
+208,歩,"ho, bu","aruku, ayumu","walk, counter, for, steps",9.0,0.599,4.0
+209,風,"fuu, fu","kaze, kaza-","wind, air, style, manner",9.0,0.599,4.0
+210,紙,shi,kami,paper,9.0,0.599,4.0
+211,黒,koku,kuro,black,9.0,0.599,4.0
+212,花,"ka, ke",hana,flower,9.0,0.599,4.0
+213,春,shun,haru,spring,9.0,0.599,4.0
+214,赤,"seki, shaku",akai,red,9.0,0.599,4.0
+215,青,"sei, shou",aoi,blue,9.0,0.599,4.0
+216,館,kan,yakata,"building, mansion, large, building, palace",9.0,0.599,4.0
+217,屋,oku,ya,"roof, house, shop, dealer, seller",9.0,0.599,4.0
+218,色,"shoku, shiki",iro,color,9.0,0.599,4.0
+219,走,sou,hashiru,run,9.0,0.599,4.0
+220,秋,shuu,aki,"autumn, fall",9.0,0.599,4.0
+221,夏,"ka, ge",natsu,summer,9.0,0.599,4.0
+222,習,shuu,narau,learn,9.0,0.599,4.0
+223,駅,eki,/,station,9.0,0.599,4.0
+224,洋,you,/,"ocean, sea, foreign, Western, style",9.0,0.599,4.0
+225,旅,ryo,tabi,"trip, travel",9.0,0.599,4.0
+226,服,fuku,/,"clothing, admit, obey",9.0,0.599,4.0
+227,夕,yuu,/,evening,9.0,0.599,4.0
+228,借,shaku,kariru,"borrow, rent",9.0,0.599,4.0
+229,曜,you,/,weekday,9.0,0.599,4.0
+230,飲,in,nomu,drink,9.0,0.599,4.0
+231,肉,niku,/,meat,9.0,0.599,4.0
+232,貸,tai,"kasu, kashi",lend,9.0,0.599,4.0
+233,堂,dou,/,"public, chamber, hall",9.0,0.599,4.0
+234,鳥,chou,tori,"bird, chicken",9.0,0.599,4.0
+235,飯,han,meshi,"meal, rice",9.0,0.599,4.0
+236,勉,ben,tsutomeru,"exertion, endeavor, effort",9.0,0.599,4.0
+237,冬,tou,fuyu,winter,9.0,0.599,4.0
+238,昼,chuu,hiru,"daytime, noon",9.0,0.599,4.0
+239,茶,"cha, sa",/,tea,9.0,0.599,4.0
+240,弟,"tei, dai, de",otouto,"younger, brother",9.0,0.599,4.0
+241,牛,gyuu,ushi,cow,9.0,0.599,4.0
+242,魚,gyo,"uo, sakana",fish,9.0,0.599,4.0
+243,兄,"kyou, kei",ani,"elder, brother",9.0,0.599,4.0
+244,犬,ken,inu,dog,9.0,0.599,4.0
+245,妹,mai,imouto,"younger, sister",9.0,0.599,4.0
+246,姉,shi,ane,"elder, sister",9.0,0.599,4.0
+247,漢,kan,/,China,9.0,0.599,4.0
 248,政,sei,matsurigoto,"politics, government",9.0,0.273,3.0
 249,議,gi,/,"deliberation, consultation, debate",9.0,0.273,3.0
 250,民,min,tami,"people, nation, subjects",9.0,0.273,3.0
@@ -386,7 +386,7 @@ id,kanji,onyomi,kunyomi,meaning,score,taux,JLPT
 385,神,"shin, jin",kami,"gods, mind, soul",9.0,0.273,3.0
 386,番,ban,tsugai,"turn, number, in, a, series",9.0,0.273,3.0
 387,規,ki,/,"standard, measure",9.0,0.273,3.0
-388,術,jutsu,sube,"art, technique, skill, means, trick",14.0,0.273,3.0
+388,術,jutsu,sube,"art, technique, skill, means, trick",9.0,0.273,3.0
 389,備,bi,sonaeru,"equip, provision, preparation",9.0,0.273,3.0
 390,宅,taku,/,"home, house, residence",9.0,0.273,3.0
 391,害,gai,/,"harm, injury",9.0,0.273,3.0
@@ -575,7 +575,7 @@ id,kanji,onyomi,kunyomi,meaning,score,taux,JLPT
 574,寝,shin,neru,"lie, down, sleep, rest",9.0,0.273,3.0
 575,暗,an,kurai,"darkness, disappear, shade, informal",9.0,0.273,3.0
 576,盗,tou,nusumu,"steal, rob",9.0,0.273,3.0
-577,吸,kyuu,suu,"suck, inhale",14.0,0.273,3.0
+577,吸,kyuu,suu,"suck, inhale",9.0,0.273,3.0
 578,陽,you,hi,"sunshine, positive",9.0,0.273,3.0
 579,御,"gyo, go","on, o",honorable,9.0,0.273,3.0
 580,歯,shi,ha,"tooth, cog",9.0,0.273,3.0
@@ -750,7 +750,7 @@ id,kanji,onyomi,kunyomi,meaning,score,taux,JLPT
 749,伸,shin,nobiru,"expand;, stretch;, extend",9.0,0.269,2.0
 750,停,tei,tomeru,"halt;, stopping",9.0,0.269,2.0
 751,爆,baku,hazeru,"bomb;, burst, open",9.0,0.269,2.0
-752,陸,"riku, roku",oka,"land;, six",14.0,0.269,2.0
+752,陸,"riku, roku",oka,"land;, six",9.0,0.269,2.0
 753,玉,gyoku,tama,"jewel;, ball",9.0,0.269,2.0
 754,波,ha,nami,"waves;, billows",9.0,0.269,2.0
 755,帯,tai,obiru,"sash;, belt;, obi;, zone;, region",9.0,0.269,2.0
@@ -800,8 +800,8 @@ id,kanji,onyomi,kunyomi,meaning,score,taux,JLPT
 799,誌,shi,/,"document;, records",9.0,0.269,2.0
 800,庫,"ko, ku",kura,"warehouse;, storehouse",9.0,0.269,2.0
 801,刊,kan,/,"publish;, carve;, engrave",9.0,0.269,2.0
-802,像,zou,/,"statue;, picture;, image;, figure",14.0,0.269,2.0
-803,香,"kou, kyou",kaori,"incense;, smell;, perfume",14.0,0.269,2.0
+802,像,zou,/,"statue;, picture;, image;, figure",9.0,0.269,2.0
+803,香,"kou, kyou",kaori,"incense;, smell;, perfume",9.0,0.269,2.0
 804,坂,han,saka,"slope;, incline;, hill",9.0,0.269,2.0
 805,底,tei,soko,"bottom;, sole;, depth;, bottom, price",9.0,0.269,2.0
 806,布,fu,"nuno, shiku","linen;, cloth;, spread;, distribute",9.0,0.269,2.0
@@ -921,7 +921,7 @@ id,kanji,onyomi,kunyomi,meaning,score,taux,JLPT
 920,虫,"chuu, ki",mushi,"insect;, bug",9.0,0.269,2.0
 921,刷,satsu,"suru, haku","printing;, print;, brush",9.0,0.269,2.0
 922,湯,tou,yu,"hot, water;, bath;, hot, spring",9.0,0.269,2.0
-923,溶,you,tokeru,"melt;, dissolve;, thaw",14.0,0.269,2.0
+923,溶,you,tokeru,"melt;, dissolve;, thaw",9.0,0.269,2.0
 924,鉱,kou,aragane,"mineral;, ore",9.0,0.269,2.0
 925,涙,rui,namida,"tears;, sympathy",9.0,0.269,2.0
 926,匹,hitsu,hiki,"counter, for, small, animals",9.0,0.269,2.0
