@@ -137,7 +137,7 @@ def train_lecture(exercice):
         get_error = False
         kana = probability(exercice, level_target)
         answer = input(f"De quel {exercice} s'agit-il ? {kana[0][0]}".ljust(30) + f"{count}/{how_much}\n".ljust(7))
-        while answer not in kana[0][1] and answer not in kana[0][2] and answer != "":
+        while answer not in (kana[0][1] or kana[0][2] or answer != ""):
             answer = input("Faux ! De quel kana s'agit-il ? {} \n".format(kana[0][0]))
             get_error = True
         if answer == "":
@@ -373,7 +373,7 @@ def call_stat_session(count_good, count_error, how_much):
  
 # add several data in kanji csv 
 def add_kanjis_csv():
-    stop, data_to_insert, score, taux, jlpt = False, [], 10, 0.0, "N5"
+    stop, data_to_insert, score, taux, jlpt = False, [], 10, 0.0, "5"
     while not stop:
         system('cls')
         add = input("Entrez le kanji, le romaji et sa traduction sous la forme : kanji romaji traduction\n")
@@ -401,7 +401,7 @@ def add_kanjis_csv():
             add_data.append(taux)
             add_data.append(jlpt)
             writer.writerow(add_data)
-    probability("kanji",False, None, jlpt="")
+    probability("kanji", "")
     main()
 
 
