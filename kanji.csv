@@ -1,112 +1,992 @@
-id,kanji,romaji,francais,score,taux,niveau
-1,人,hito,personne,6,0.634,5.0
-2,一,ichi,un,8,0.82,5.0
-3,二,ni,deux,4,0.41,5.0
-3,三,san,trois,15,1.565,5.0
-4,日,hi,jour,4,0.41,5.0
-6,四,yon,quatre,8,0.82,5.0
-7,五,go,cinq,4,0.41,5.0
-8,六,roku,six,6,0.634,5.0
-9,七,nana,sept,8,0.82,5.0
-10,八,hachi,huit,10,1.044,5.0
-11,九,kyuu,neuf,6,0.634,5.0
-12,十,juu,dix,15,1.565,5.0
-13,円,en,yen,4,0.41,5.0
-14,百,hyaku,cent,8,0.82,5.0
-15,千,sen,mille,15,1.565,5.0
-16,万,man,dix mille,10,1.044,5.0
-17,月,tsuki,mois,8,0.82,5.0
-18,明,aka,lumière/clarté,10,1.044,4.0
-19,曜,you,jour de la semaine,15,1.565,5.0
-20,火,hi,feu,8,0.82,5.0
-21,水,mizu,eau,8,0.82,5.0
-22,木,ki,bois,8,0.82,5.0
-23,金,kane,métal,6,0.634,5.0
-24,土,tsuchi,terre/sol,10,1.044,5.0
-25,本,hon,livre,10,1.044,5.0
-26,大,oo,grand,11,1.155,5.0
-27,小,chii,petit,15,1.565,5.0
-28,中,naka,milieu,8,0.82,5.0
-29,風,kaze,vent,11,1.155,5.0
-30,雨,ame,pluie,8,0.82,5.0
-31,下,shita,bas/inférieur,8,0.82,5.0
-32,上,ue,haut/supérieur,8,0.82,5.0
-33,川,kawa,rivière,6,0.634,5.0
-34,山,yama,montagne,8,0.82,5.0
-35,田,ta,rizière,10,1.044,5.0
-37,刀,katana,sabre,8,0.82,1.0
-38,分,fun,minute,10,1.044,5.0
-39,切,kiru,couper,4,0.41,5.0
-40,国,kuni,pays,7,0.745,5.0
-41,寺,tera,temple,8,0.82,2.0
-42,時,toki,l'heure,10,1.044,5.0
-43,間,aida,intervalle,6,0.634,5.0
-44,生,ikiru,vivre,10,1.044,5.0
-45,年,toshi,année,8,0.82,5.0
-46,以,i-,"préfixe ""plus de""",2,0.224,4.0
-47,前,mae,devant,13,1.342,5.0
-48,後,ushi,après,10,1.044,5.0
-49,午,go,midi,2,0.224,5.0
-50,休,yasumu,se reposer,10,1.044,5.0
-51,先,saki,avant,10,1.044,5.0
-52,入,hairu,entrer,10,1.044,5.0
-53,出,deru,sortir,10,1.044,5.0
-54,口,kuchi,bouche,8,0.82,5.0
-55,右,migi,droite,8,0.82,5.0
-56,名,na,nom,10,1.044,5.0
-57,子,ko,enfant,10,1.044,5.0
-58,女,onna,femme,8,0.82,5.0
-59,天,ten,cieux/impérial,8,0.82,5.0
-60,学,gaku,gaku,8,0.82,5.0
-61,左,hidari,gauche,10,1.044,5.0
-62,手,te,main,8,0.82,5.0
-63,校,men,école,10,1.044,5.0
-64,気,ki,humeur/esprit,8,0.82,5.0
-65,男,otoko,homme,10,1.044,5.0
-66,白,shiro,blanc,8,0.82,5.0
-67,目,me,oeil,8,0.82,5.0
-68,空,sora,ciel/vide,8,0.82,5.0
-69,立,tatsu,être debout,10,1.044,5.0
-70,耳,mimi,oreille,8,0.82,5.0
-71,花,hana,fleur,8,0.82,5.0
-72,見,miru,voir/regarder,8,0.82,5.0
-73,足,ashi,jambe,8,0.82,5.0
-74,車,kuruma,voiture,10,1.044,5.0
-75,今,ima,maintenant,8,0.82,5.0
-76,会,au,rencontrer,10,1.044,5.0
-77,何,nani,quoi,8,0.82,5.0
-78,北,kita,nord,8,0.82,5.0
-79,半,han,moitié,10,1.044,5.0
-80,南,minami,sud,8,0.82,5.0
-81,友,tomo,ami,10,1.044,5.0
-82,古,furu,vieux,9,0.932,5.0
-83,外,soto,extérieur,10,1.044,5.0
-84,多,oo,nombreux,10,1.044,5.0
-85,少suku,peu,10,0,0.0,
-86,店,mise,magasin,8,0.82,5.0
-87,新,atara,nouveau,10,1.044,5.0
-88,書,kaku,écrire,8,0.82,5.0
-89,来,kuru,venir,8,0.82,5.0
-90,東,higashi,est,8,0.82,5.0
-91,母,haha,mère,10,1.044,5.0
-92,毎,mai,chaque,10,1.044,5.0
-93,父,chichi,père,10,1.044,5.0
-94,社,yashiro,entreprise,8,0.82,5.0
-95,聞,kiku,écouter,10,1.044,5.0
-96,行,iku,aller,10,1.044,5.0
-97,西,nishi,ouest,10,1.044,5.0
-98,言,iu,dire,8,0.82,5.0
-99,話,hanasu,parler,10,1.044,5.0
-100,語,go,langue,10,1.044,5.0
-101,読,yomu,lire,8,0.82,5.0
-102,買,kau,acheter,10,1.044,5.0
-103,週,shuu,semaine,10,1.044,5.0
-104,道,michi,chemin,6,0.634,5.0
-105,長,naga,long,8,0.82,5.0
-106,電,den,électricité,10,1.044,5.0
-107,食,taberu,manger,8,0.82,5.0
-108,高,taka,cher/élevé,10,1.044,5.0
-109,魚,sakana,poisson,8,0.82,5.0
-110,安,yasu,peu cher,10,1.044,5.0
-111,飲,nomu,boire,10,1.044,5.0
-112,駅,eki,gare,10,1.044,5.0
+id,kanji,onyomi,kunyomi,meaning,score,taux,JLPT
+1,日,"nichi, jitsu","hi, -bi, -ka","day, sun, Japan, counter, for, days",9.0,1.25,5.0
+2,一,ichi,hitotsu,one,9.0,1.25,5.0
+3,国,koku,kuni,country,9.0,1.25,5.0
+4,人,"jin, nin",hito,person,9.0,1.25,5.0
+5,年,nen,toshi,"year, counter, for, years",9.0,1.25,5.0
+6,大,"dai, tai",ookii,"large, big",9.0,1.25,5.0
+7,十,juu,"tou, to","ten, 10",9.0,1.25,5.0
+8,二,"ni, ji",futatsu,"two, 2",9.0,1.25,5.0
+9,本,hon,moto,"book, present, true, counter, for, long, cylindrical, things",9.0,1.25,5.0
+10,中,chuu,"naka, uchi, ataru","in, inside, middle, mean, center",9.0,1.25,5.0
+11,長,chou,"nagai, osa","long, leader, superior, senior",9.0,1.25,5.0
+12,出,"shutsu, sui","deru, dasu, ideru","exit, leave, go, out",9.0,1.25,5.0
+13,三,san,mitsu,"three, 3",9.0,1.25,5.0
+14,時,ji,"toki, doki","time, hour",9.0,1.25,5.0
+15,行,"kou, gyou, an","iku, yuku, okonau","going, journey, carry, out, line, row",9.0,1.25,5.0
+16,見,ken,"miru, miseru","see, hopes, chances, idea, opinion, look, at, visible",9.0,1.25,5.0
+17,月,"getsu, gatsu",tsuki,"month, moon",9.0,1.25,5.0
+18,分,"bun, fun, bu",wakeru,"part, minute, of, time, understand",9.0,1.25,5.0
+19,後,"go, kou","nochi, ushiro, ato","behind, back, later",9.0,1.25,5.0
+20,前,zen,mae,"in, front, before",9.0,1.25,5.0
+21,生,"sei, shou","ikiru, umu, ou, haeru, nama","life, genuine, birth",9.0,1.25,5.0
+22,五,go,itsutsu,"five, 5",9.0,1.25,5.0
+23,間,"kan, ken","aida, ma, ai","interval, space",9.0,1.25,5.0
+24,上,"jou, shou, shan","ue, uwa, kami, ageru, noboru, tatematsuru","above, up",9.0,1.25,5.0
+25,東,tou,higashi,east,9.0,1.25,5.0
+26,四,shi,"yotsu, yon","four, 4",9.0,1.25,5.0
+27,今,"kon, kin",ima,"now;, the, present",9.0,1.25,5.0
+28,金,"kin, kon, gon","kane, kana, gane",gold,9.0,1.25,5.0
+29,九,"kyuu, ku",kokonotsu,"nine, 9",9.0,1.25,5.0
+30,入,nyuu,"iru, hairu","enter, insert",9.0,1.25,5.0
+31,学,gaku,manabu,"study, learning, science",9.0,1.25,5.0
+32,高,kou,takai,"tall, high, expensive",9.0,1.25,5.0
+33,円,en,marui,"circle, yen, round",9.0,1.25,5.0
+34,子,"shi, su, tsu","ko, ne",child,9.0,1.25,5.0
+35,外,"gai, ge","soto, hoka, hazu-, to-",outside,9.0,1.25,5.0
+36,八,hachi,"yatsu, you","eight, 8",9.0,1.25,5.0
+37,六,roku,"mutsu, mui","six, 6",9.0,1.25,5.0
+38,下,"ka, ge","shita, shimo, moto, sageru, kudaru, orosu","below, down, descend, give, low, inferior",9.0,1.25,5.0
+39,来,"rai, tai","kuru, kitaru, ki, ko","come, due, next, cause, become",9.0,1.25,5.0
+40,気,"ki, ke",iki,"spirit, mind, air, atmosphere, mood",9.0,1.25,5.0
+41,小,shou,"chiisai, ko-, o-, sa-","little, small",9.0,1.25,5.0
+42,七,shichi,"nanatsu, nano","seven, 7",9.0,1.25,5.0
+43,山,"san, sen",yama,mountain,9.0,1.25,5.0
+44,話,wa,"hanasu, hanashi","tale, talk",9.0,1.25,5.0
+45,女,jo,"onnna, me","woman, female",9.0,1.25,5.0
+46,北,hoku,kita,north,9.0,1.25,5.0
+47,午,go,uma,"noon, sign, of, the, horse",9.0,1.25,5.0
+48,百,"hyaku, byaku",momo,hundred,9.0,1.25,5.0
+49,書,sho,kaku,write,9.0,1.25,5.0
+50,先,sen,"saki, mazu","before, ahead, previous, future, precedence",9.0,1.25,5.0
+51,名,"mei, myou",na,"name, noted, distinguished, reputation",9.0,1.25,5.0
+52,川,sen,kawa,"river, stream",9.0,1.25,5.0
+53,千,sen,chi,thousand,9.0,1.25,5.0
+54,水,sui,mizu,water,9.0,1.25,5.0
+55,半,han,nakaba,"half, middle, odd, number, semi-",9.0,1.25,5.0
+56,男,"dan, nan","otoko, o","male;, man",9.0,1.25,5.0
+57,西,"sei, sai",nishi,west,9.0,1.25,5.0
+58,電,den,/,"electricity;, electric, powered",9.0,1.25,5.0
+59,校,kou,/,"school, exam",9.0,1.25,5.0
+60,語,go,kataru,"word, speech, language",9.0,1.25,5.0
+61,土,"do, to",tsuchi,"soil, earth, ground",9.0,1.25,5.0
+62,木,"boku, moku","ki, ko","tree, wood",9.0,1.25,5.0
+63,聞,"bun, mon",kiku,"to, hear;, to, listen;, to, ask",9.0,1.25,5.0
+64,食,"shoku, jiki","ku, taberu, hamu","eat, food",9.0,1.25,5.0
+65,車,sha,kuruma,"car, wheel",9.0,1.25,5.0
+66,何,ka,"nani, nan",what,9.0,1.25,5.0
+67,南,"nan, na",minami,south,9.0,1.25,5.0
+68,万,"man, ban",/,"ten, thousand, 10,000",9.0,1.25,5.0
+69,毎,mai,gotoni,every,9.0,1.25,5.0
+70,白,"haku, byaku",shiroi,white,9.0,1.25,5.0
+71,天,ten,amatsu,"heavens, sky, imperial",9.0,1.25,5.0
+72,母,bo,"haha, kaa",mother,9.0,1.25,5.0
+73,火,ka,"hi, bi, ho",fire,9.0,1.25,5.0
+74,右,"u, yuu",migi,"right, direction",9.0,1.25,5.0
+75,読,"doku, toku, tou",yomu,"to, read",9.0,1.25,5.0
+76,友,yuu,tomo,friend,9.0,1.25,5.0
+77,左,"sa, sha",hidari,left,9.0,1.25,5.0
+78,休,kyuu,yasumu,"rest, day, off, retire, sleep",9.0,1.25,5.0
+79,父,fu,"chichi, tou",father,9.0,1.25,5.0
+80,雨,u,"ame, ama",rain,9.0,1.25,5.0
+81,会,kai,au,"meeting;, meet",9.0,0.599,4.0
+82,同,dou,onaji,"same, agree, equal",9.0,0.599,4.0
+83,事,ji,koto,"matter, thing, fact, business, reason, possibly",9.0,0.599,4.0
+84,自,"ji, shi",/,oneself,9.0,0.599,4.0
+85,社,sha,yashiro,"company, firm, office, association, shrine",9.0,0.599,4.0
+86,発,"hatsu, hotsu",/,"departure, discharge, emit, start, from",9.0,0.599,4.0
+87,者,sha,mono,"someone, person",9.0,0.599,4.0
+88,地,"chi, ji",/,"ground, earth",9.0,0.599,4.0
+89,業,gyou,waza,"business, vocation, arts, performance",9.0,0.599,4.0
+90,方,hou,kata,"direction, person, alternative",9.0,0.599,4.0
+91,新,shin,"atarashii, arata",new,9.0,0.599,4.0
+92,場,jou,ba,"location, place",9.0,0.599,4.0
+93,員,in,/,"employee, member, number, the, one, in, charge",9.0,0.599,4.0
+94,立,ritsu,tatsu,"stand, up, rise",9.0,0.599,4.0
+95,開,kai,"hiraku, akeru","open, unfold, unseal",9.0,0.599,4.0
+96,手,shu,te,hand,9.0,0.599,4.0
+97,力,"ryoku, riki",chikara,"power, strength, strong, strain, bear, up, exert",9.0,0.599,4.0
+98,問,mon,tou,"question, ask, problem",9.0,0.599,4.0
+99,代,dai,kawari,"substitute, change, convert, replace, period",9.0,0.599,4.0
+100,明,"mei, myou",akarui,"bright, light",9.0,0.599,4.0
+101,動,dou,ugoku,"move, motion, change",9.0,0.599,4.0
+102,京,"kyou, kei, kin",miyako,capital,9.0,0.599,4.0
+103,目,"moku, boku",me,"eye, class, look, insight, experience",9.0,0.599,4.0
+104,通,tsuu,"tooru, kayou","traffic, pass, through, avenue, commute",9.0,0.599,4.0
+105,言,"gen, gon","iu, koto","say, word",9.0,0.599,4.0
+106,理,ri,/,"logic, arrangement, reason, justice, truth",9.0,0.599,4.0
+107,体,tai,karada,"body, substance, object, reality",9.0,0.599,4.0
+108,田,den,ta,"rice, field, rice, paddy",9.0,0.599,4.0
+109,主,shu,"nushi, omo","lord, chief, master, main, thing, principal",9.0,0.599,4.0
+110,題,dai,/,"topic, subject",9.0,0.599,4.0
+111,意,i,/,"idea, mind, heart, taste, thought",9.0,0.599,4.0
+112,不,"fu, bu",/,"negative, non-, bad",9.0,0.599,4.0
+113,作,"saku, sa",tsukuru,"make, production, prepare, build",9.0,0.599,4.0
+114,用,you,mochiiru,"utilize, business, service, use, employ",9.0,0.599,4.0
+115,度,"do, taku","tabi, tai","degrees, occurrence, time, counter, for, occurrences",9.0,0.599,4.0
+116,強,"kyou, gou",tsuyoi,strong,9.0,0.599,4.0
+117,公,kou,/,"public, prince, official, governmental",9.0,0.599,4.0
+118,持,ji,motsu,"hold, have",9.0,0.599,4.0
+119,野,ya,no,"plains, field, rustic, civilian, life",9.0,0.599,4.0
+120,以,i,motte,"by, means, of, because, in, view, of, compared, with",9.0,0.599,4.0
+121,思,shi,/,think,9.0,0.599,4.0
+122,家,ka,"ie, ya, uchi","house, home, family, professional, expert",9.0,0.599,4.0
+123,世,"sei, se",yo,"generation, world, society, public",9.0,0.599,4.0
+124,多,ta,ooi,"many, frequent, much",9.0,0.599,4.0
+125,正,"sei, shou","tadashii, masani","correct, justice, righteous",9.0,0.599,4.0
+126,安,an,yasui,"safe, peaceful, cheap",9.0,0.599,4.0
+127,院,in,/,"institution, temple, mansion, school",9.0,0.599,4.0
+128,心,shin,kokoro,"heart, mind, spirit",9.0,0.599,4.0
+129,界,kai,/,"world, boundary",9.0,0.599,4.0
+130,教,kyou,"oshieru, osowaru","teach, faith, doctrine",9.0,0.599,4.0
+131,文,"bun, mon",fumi,"sentence, literature, style, art",9.0,0.599,4.0
+132,元,"gen, gan",moto,"beginning, former, time, origin",9.0,0.599,4.0
+133,重,"juu, chou","omoi, kasaneru","heavy, important, esteem, respect",9.0,0.599,4.0
+134,近,kin,chikai,"near, early, akin, tantamount",9.0,0.599,4.0
+135,考,kou,kangaeru,"consider, think, over",9.0,0.599,4.0
+136,画,"ga, kaku",kakusuru,"brush-stroke, picture",9.0,0.599,4.0
+137,海,kai,umi,"sea, ocean",9.0,0.599,4.0
+138,売,bai,uru,sell,9.0,0.599,4.0
+139,知,chi,shiru,"know, wisdom",9.0,0.599,4.0
+140,道,dou,michi,"road-way, street, district, journey, course",9.0,0.599,4.0
+141,集,shuu,atsumeru,"gather, meet",9.0,0.599,4.0
+142,別,betsu,"wakareru, wakeru","separate, branch, off, diverge",9.0,0.599,4.0
+143,物,"butsu, motsu",mono,"thing, object, matter",9.0,0.599,4.0
+144,使,shi,tsukau,"use, order, messenger, ambassador",9.0,0.599,4.0
+145,品,hin,shina,"goods, refinement, dignity, article",9.0,0.599,4.0
+146,計,kei,hakaru,"plot, plan, scheme, measure",9.0,0.599,4.0
+147,死,shi,shinu,"death, die",9.0,0.599,4.0
+148,特,toku,/,special,9.0,0.599,4.0
+149,私,shi,"watakushi, watashi","private, I, me",9.0,0.599,4.0
+150,始,shi,hajimeru,"commence, begin",9.0,0.599,4.0
+151,朝,chou,asa,morning,9.0,0.599,4.0
+152,運,un,hakobu,"carry, luck, destiny, fate, transport",9.0,0.599,4.0
+153,終,shuu,owaru,"end, finish",9.0,0.599,4.0
+154,台,"dai, tai",utena,"pedestal, a, stand, counter, for, machines, and, vehicles",9.0,0.599,4.0
+155,広,kou,hiroi,"wide, broad, spacious",9.0,0.599,4.0
+156,住,"juu, chuu",sumu,"dwell, reside, live, inhabit",9.0,0.599,4.0
+157,無,"mu, bu",nai,"nothingness, /, ""aint,"", nothing, nil, not",9.0,0.599,4.0
+158,真,shin,"ma, makoto","true, reality, Buddhist, sect",9.0,0.599,4.0
+159,有,"yuu, u",aru,"possess, have, exist, happen",9.0,0.599,4.0
+160,口,kou,kuchi,mouth,9.0,0.599,4.0
+161,少,shou,"sukunai, sukoshi","few, little",9.0,0.599,4.0
+162,町,chou,machi,"town, village, block, street",9.0,0.599,4.0
+163,料,ryou,/,"fee, materials",9.0,0.599,4.0
+164,工,"kou, ku, gu",/,"craft, construction",9.0,0.599,4.0
+165,建,"ken, kon",tateru,build,9.0,0.599,4.0
+166,空,kuu,"sora, kara, aku, suku, munashii","empty, sky, void, vacant, vacuum",9.0,0.599,4.0
+167,急,kyuu,isogu,"hurry, emergency, sudden, steep",9.0,0.599,4.0
+168,止,shi,"tomaru, todomaru, yameru, yosu","stop, halt",9.0,0.599,4.0
+169,送,sou,okuru,"escort, send",9.0,0.599,4.0
+170,切,"setsu, sai",kiru,"cut, cutoff, be, sharp",9.0,0.599,4.0
+171,転,ten,korogaru,"revolve, turn, around, change",9.0,0.599,4.0
+172,研,ken,togu,"polish, study, of, sharpen",9.0,0.599,4.0
+173,足,soku,"ashi, tariru","leg, foot, be, sufficient",9.0,0.599,4.0
+174,究,kyuu,/,"research, study",9.0,0.599,4.0
+175,楽,"gaku, raku",tanoshii,"music, comfort, ease",9.0,0.599,4.0
+176,起,ki,"okiru, okosu","wake, up, get, up;, rouse",9.0,0.599,4.0
+177,着,chaku,"kiru, tsuku","arrive, wear, counter, for, suits, of, clothing",9.0,0.599,4.0
+178,店,ten,mise,"store, shop",9.0,0.599,4.0
+179,病,byou,yamu,"ill, sick",9.0,0.599,4.0
+180,質,"shitsu, shichi","tachi, tadasu","substance, quality, matter, temperament",9.0,0.599,4.0
+181,待,tai,matsu,"wait, depend, on",9.0,0.599,4.0
+182,試,shi,"kokoromiru, tamesu","test, try, attempt, experiment",9.0,0.599,4.0
+183,族,zoku,/,"tribe, family",9.0,0.599,4.0
+184,銀,gin,/,silver,9.0,0.599,4.0
+185,早,"sou, sa",hayai,"early, fast",9.0,0.599,4.0
+186,映,ei,"utsuru, haeru","reflect, reflection, projection",9.0,0.599,4.0
+187,親,shin,"oya, shitashii","parent, intimacy, relative, familiarity",9.0,0.599,4.0
+188,験,ken,/,"verification, effect, testing",9.0,0.599,4.0
+189,英,ei,/,"England, English, hero, outstanding",9.0,0.599,4.0
+190,医,i,/,"doctor, medicine",9.0,0.599,4.0
+191,仕,shi,/,"attend, doing, official, serve",9.0,0.599,4.0
+192,去,"kyo, ko",saru,"gone, past, quit, leave, elapse, eliminate",9.0,0.599,4.0
+193,味,mi,aji,"flavor, taste",9.0,0.599,4.0
+194,写,sha,utsuru,"copy, be, photographed, describe",9.0,0.599,4.0
+195,字,ji,/,"character, letter, word",9.0,0.599,4.0
+196,答,tou,kotaeru,"solution, answer",9.0,0.599,4.0
+197,夜,ya,"yo, yoru","night, evening",9.0,0.599,4.0
+198,音,on,"oto, ne","sound, noise",9.0,0.599,4.0
+199,注,chuu,"sosogu, sasu, tsugu","pour, irrigate, shed, tears, flow, into, concentrate, on",9.0,0.599,4.0
+200,帰,ki,"kaeru, kaesu","homecoming, arrive, at, lead, to, result, in",9.0,0.599,4.0
+201,古,ko,furui,old,9.0,0.599,4.0
+202,歌,ka,"uta, utau","song, sing",9.0,0.599,4.0
+203,買,bai,kau,buy,9.0,0.599,4.0
+204,悪,aku,warui,"bad, evil, wrong",9.0,0.599,4.0
+205,図,"zu, to",hakaru,"map, drawing, plan, extraordinary",9.0,0.599,4.0
+206,週,shuu,/,week,9.0,0.599,4.0
+207,室,shitsu,muro,"room, apartment, chamber, greenhouse, cellar",9.0,0.599,4.0
+208,歩,"ho, bu","aruku, ayumu","walk, counter, for, steps",9.0,0.599,4.0
+209,風,"fuu, fu","kaze, kaza-","wind, air, style, manner",9.0,0.599,4.0
+210,紙,shi,kami,paper,9.0,0.599,4.0
+211,黒,koku,kuro,black,9.0,0.599,4.0
+212,花,"ka, ke",hana,flower,9.0,0.599,4.0
+213,春,shun,haru,spring,9.0,0.599,4.0
+214,赤,"seki, shaku",akai,red,9.0,0.599,4.0
+215,青,"sei, shou",aoi,blue,9.0,0.599,4.0
+216,館,kan,yakata,"building, mansion, large, building, palace",9.0,0.599,4.0
+217,屋,oku,ya,"roof, house, shop, dealer, seller",9.0,0.599,4.0
+218,色,"shoku, shiki",iro,color,9.0,0.599,4.0
+219,走,sou,hashiru,run,9.0,0.599,4.0
+220,秋,shuu,aki,"autumn, fall",9.0,0.599,4.0
+221,夏,"ka, ge",natsu,summer,9.0,0.599,4.0
+222,習,shuu,narau,learn,9.0,0.599,4.0
+223,駅,eki,/,station,9.0,0.599,4.0
+224,洋,you,/,"ocean, sea, foreign, Western, style",9.0,0.599,4.0
+225,旅,ryo,tabi,"trip, travel",9.0,0.599,4.0
+226,服,fuku,/,"clothing, admit, obey",9.0,0.599,4.0
+227,夕,yuu,/,evening,9.0,0.599,4.0
+228,借,shaku,kariru,"borrow, rent",9.0,0.599,4.0
+229,曜,you,/,weekday,9.0,0.599,4.0
+230,飲,in,nomu,drink,9.0,0.599,4.0
+231,肉,niku,/,meat,9.0,0.599,4.0
+232,貸,tai,"kasu, kashi",lend,9.0,0.599,4.0
+233,堂,dou,/,"public, chamber, hall",9.0,0.599,4.0
+234,鳥,chou,tori,"bird, chicken",9.0,0.599,4.0
+235,飯,han,meshi,"meal, rice",9.0,0.599,4.0
+236,勉,ben,tsutomeru,"exertion, endeavor, effort",9.0,0.599,4.0
+237,冬,tou,fuyu,winter,9.0,0.599,4.0
+238,昼,chuu,hiru,"daytime, noon",9.0,0.599,4.0
+239,茶,"cha, sa",/,tea,9.0,0.599,4.0
+240,弟,"tei, dai, de",otouto,"younger, brother",9.0,0.599,4.0
+241,牛,gyuu,ushi,cow,9.0,0.599,4.0
+242,魚,gyo,"uo, sakana",fish,9.0,0.599,4.0
+243,兄,"kyou, kei",ani,"elder, brother",9.0,0.599,4.0
+244,犬,ken,inu,dog,9.0,0.599,4.0
+245,妹,mai,imouto,"younger, sister",9.0,0.599,4.0
+246,姉,shi,ane,"elder, sister",9.0,0.599,4.0
+247,漢,kan,/,China,9.0,0.599,4.0
+248,政,sei,matsurigoto,"politics, government",9.0,0.27,3.0
+249,議,gi,/,"deliberation, consultation, debate",9.0,0.27,3.0
+250,民,min,tami,"people, nation, subjects",9.0,0.27,3.0
+251,連,ren,"tsuranaru, tsureru","take, along, lead, join, connect",9.0,0.27,3.0
+252,対,"tai, tsui",/,"opposite, even, equal, versus, anti-, compare",9.0,0.27,3.0
+253,部,bu,/,"section, bureau, dept, class, copy, part, portion",9.0,0.27,3.0
+254,合,"gou, ga, ka","au, ai","fit, suit, join, 0.1",9.0,0.27,3.0
+255,市,shi,ichi,"market, city, town",9.0,0.27,3.0
+256,内,nai,uchi,"inside, within, between, among, house, home",9.0,0.27,3.0
+257,相,"sou, shou",ai,"inter-, mutual, together, each, other, minister, of, state",9.0,0.27,3.0
+258,定,"tei, jou",sadameru,"determine, fix, establish, decide",9.0,0.27,3.0
+259,回,kai,mawasu,"-times, round, revolve, counter",9.0,0.27,3.0
+260,選,sen,erabu,"elect, select, choose, prefer",9.0,0.27,3.0
+261,米,"bei, mai, meetoru",kome,"rice, USA, meter",9.0,0.27,3.0
+262,実,jitsu,"mi, minoru","reality, truth",9.0,0.27,3.0
+263,関,kan,"seki, kakawaru","connection, barrier, gateway, involve, concerning",9.0,0.27,3.0
+264,決,ketsu,kimeru,"decide, fix, agree, upon, appoint",9.0,0.27,3.0
+265,全,zen,"mattaku, subete","whole, entire, all, complete, fulfill",9.0,0.27,3.0
+266,表,hyou,"omote, arawasu","surface, table, chart, diagram",9.0,0.27,3.0
+267,戦,sen,"ikusa, tatakau","war, battle, match",9.0,0.27,3.0
+268,経,kei,"heru, tatsu","longitude, pass, thru, expire, warp",9.0,0.27,3.0
+269,最,sai,mottomo,"utmost, most, extreme",9.0,0.27,3.0
+270,現,gen,"arawareru, utsutsu","present, existing, actual",9.0,0.27,3.0
+271,調,chou,"shiraberu, tonou","tune, tone, meter, prepare, investigate",9.0,0.27,3.0
+272,化,"ka, ke",/,"change, take, the, form, of, influence, enchant, delude, -ization",9.0,0.27,3.0
+273,当,tou,ataru,"hit, right, appropriate",9.0,0.27,3.0
+274,約,yaku,tsuzumaru,"promise, approximately, shrink",9.0,0.27,3.0
+275,首,shu,kubi,neck,9.0,0.27,3.0
+276,法,hou,nori,"method, law, rule, principle, model, system",9.0,0.27,3.0
+277,性,"sei, shou",/,"sex, gender, nature",9.0,0.27,3.0
+278,的,teki,/,"mark, target, object, adjective, ending",9.0,0.27,3.0
+279,要,you,"iru, kaname","need, main, point, essence, pivot",9.0,0.27,3.0
+280,制,sei,/,"system, law, rule",9.0,0.27,3.0
+281,治,"ji, chi","nasameru, naoru","reign, cure, heal",9.0,0.27,3.0
+282,務,mu,tsutomeru,"task, duties",9.0,0.27,3.0
+283,成,"sei, jou",naru,"turn, into, become, get, grow, elapse",9.0,0.27,3.0
+284,期,"ki, go",/,"period, time, date, term",9.0,0.27,3.0
+285,取,shu,toru,"take, fetch",9.0,0.27,3.0
+286,都,"to, tsu",miyako,"metropolis, capital",9.0,0.27,3.0
+287,和,"wa, o","yawaragu, nagomu","harmony, Japanese, style, peace",9.0,0.27,3.0
+288,機,ki,hata,"machine, airplane, opportunity",9.0,0.27,3.0
+289,平,"hei, byou",/,"even, flat, peace",9.0,0.27,3.0
+290,加,ka,kuwaeru,"add, addition, increase, join",9.0,0.27,3.0
+291,受,ju,ukeru,"accept, undergo, answer, phone, take",9.0,0.27,3.0
+292,続,zoku,tsuzuku,"continue, series, sequel",9.0,0.27,3.0
+293,進,shin,susumu,"advance, proceed",9.0,0.27,3.0
+294,数,suu,"kazu, kazoeru","number, strength, fate, law, figures",9.0,0.27,3.0
+295,記,ki,shirusu,"scribe, account, narrative",9.0,0.27,3.0
+296,初,sho,"hajime, hatsu","first, time, beginning",9.0,0.27,3.0
+297,指,shi,"yubi, sasu","finger, point, to, indicate",9.0,0.27,3.0
+298,権,ken,/,"authority, power, rights",9.0,0.27,3.0
+299,支,shi,sasaeru,"branch, support, sustain",9.0,0.27,3.0
+300,産,san,"umu, musu","products, bear, give, birth",9.0,0.27,3.0
+301,点,ten,tsukeru,"spot, point, mark",9.0,0.27,3.0
+302,報,hou,mukkuiru,"report, news, reward",9.0,0.27,3.0
+303,済,"sai, sei",sumu,"settle, relieve, finish",9.0,0.27,3.0
+304,活,katsu,/,living,9.0,0.27,3.0
+305,原,gen,hara,"original, primitive, field",9.0,0.27,3.0
+306,共,kyou,tomo,"together, both, neither",9.0,0.27,3.0
+307,得,toku,eru,"gain, get, find, earn, acquire, can, may, able, to, profit",9.0,0.27,3.0
+308,解,"kai, ge","toku, hodoku","unravel, explanation",9.0,0.27,3.0
+309,交,kou,"majiwaru, mazeru, kawasu","mingle, mixing, association, coming, &, going",9.0,0.27,3.0
+310,資,shi,/,"assets, resources, capital, funds, data, be, conducive, to",9.0,0.27,3.0
+311,予,"yo, sha",arakajime,"beforehand, previous, myself, I",9.0,0.27,3.0
+312,向,kou,"muku, mukai","facing, beyond",9.0,0.27,3.0
+313,際,sai,kiwa,"occasion, time",9.0,0.27,3.0
+314,勝,shou,"katsu, masaru","victory, win",9.0,0.27,3.0
+315,面,men,"omo, omote, tsura","mask, face, features, surface",9.0,0.27,3.0
+316,告,koku,tsugeru,"revelation, inform",9.0,0.27,3.0
+317,反,han,soru,anti-,9.0,0.27,3.0
+318,判,han,/,"judgement, signature",9.0,0.27,3.0
+319,認,nin,"mitomeru, shitatameru","acknowledge, witness, recognize",9.0,0.27,3.0
+320,参,san,mairu,"going, coming, participate",9.0,0.27,3.0
+321,利,ri,kiku,"profit, advantage, benefit",9.0,0.27,3.0
+322,組,so,"kumu, kumi","association, assemble, unite",9.0,0.27,3.0
+323,信,shin,/,"faith, truth, trust",9.0,0.27,3.0
+324,在,zai,aru,"exist, outskirts",9.0,0.27,3.0
+325,件,ken,kudan,"affair, case, matter",9.0,0.27,3.0
+326,側,soku,"gawa, soba","side, lean, oppose",9.0,0.27,3.0
+327,任,nin,makaseru,"responsibility, duty",9.0,0.27,3.0
+328,引,in,hiku,"pull, tug, jerk",9.0,0.27,3.0
+329,求,kyuu,motomeru,"request, want, demand",9.0,0.27,3.0
+330,所,sho,tokoro,"place, extent",9.0,0.27,3.0
+331,次,"ji, shi","tsugu, tsugi","next, order",9.0,0.27,3.0
+332,昨,saku,/,"yesterday, previous",9.0,0.27,3.0
+333,論,ron,agetsurau,"argument, discourse",9.0,0.27,3.0
+334,官,kan,/,"bureaucrat, the, government, organ",9.0,0.27,3.0
+335,増,zou,"masu, fueru","increase, add",9.0,0.27,3.0
+336,係,kei,"kakaru, kakari","person, in, charge, connection",9.0,0.27,3.0
+337,感,kan,/,"emotion, feeling, sensation",9.0,0.27,3.0
+338,情,"jou, sei",nasake,"feelings, emotion, passion",9.0,0.27,3.0
+339,投,tou,nageru,"throw, discard",9.0,0.27,3.0
+340,示,"ji, shi",shimesu,"show, indicate, display",9.0,0.27,3.0
+341,変,hen,kawaru,"unusual, change, strange",9.0,0.27,3.0
+342,打,da,"utsu, butsu","strike, hit, knock",9.0,0.27,3.0
+343,直,"choku, jiki","tadachini, sugu","straightaway, honesty, frankness, fix, repair",9.0,0.27,3.0
+344,両,ryou,/,both,9.0,0.27,3.0
+345,式,shiki,/,"style, ceremony",9.0,0.27,3.0
+346,確,kaku,tashika,"assurance, firm, confirm",9.0,0.27,3.0
+347,果,ka,hatasu,"fruit, reward, carry, out, achieve, complete",9.0,0.27,3.0
+348,容,you,/,"contain, form",9.0,0.27,3.0
+349,必,hitsu,kanarazu,"invariably, certain, inevitable",9.0,0.27,3.0
+350,演,en,/,"performance, act, play, render, stage",9.0,0.27,3.0
+351,歳,"sai, sei",/,"age, year-end",9.0,0.27,3.0
+352,争,sou,arasou,"contend, dispute, argue",9.0,0.27,3.0
+353,談,dan,/,"discuss, talk",9.0,0.27,3.0
+354,能,nou,atau,"ability, talent, skill, capacity",9.0,0.27,3.0
+355,位,i,"kurai, gurai","rank, grade, about",9.0,0.27,3.0
+356,置,chi,oku,"placement, put, set, deposit, leave, behind",9.0,0.27,3.0
+357,流,"ryuu, ru",nagareru,"current, flow",9.0,0.27,3.0
+358,格,"kaku, kou, kyaku",/,"status, rank, capacity",9.0,0.27,3.0
+359,疑,gi,utagau,"doubt, distrust",9.0,0.27,3.0
+360,過,ka,"sugiru, yogiru","overdo, exceed, go, beyond",9.0,0.27,3.0
+361,局,kyoku,/,"bureau, board, office",9.0,0.27,3.0
+362,放,hou,"hanasu, houru","set, free, release",9.0,0.27,3.0
+363,常,jou,tsune,"usual, ordinary, normal",9.0,0.27,3.0
+364,状,jou,/,"conditions, form, appearance",9.0,0.27,3.0
+365,球,kyuu,tama,"ball, sphere",9.0,0.27,3.0
+366,職,shoku,/,"post, employment, work",9.0,0.27,3.0
+367,与,yo,"ataeru, azukaru","give, award",9.0,0.27,3.0
+368,供,"kyou, ku, kuu","sonaeru, tomo","submit, offer, present, accompany",9.0,0.27,3.0
+369,役,"yaku, eki",/,"duty, service, role",9.0,0.27,3.0
+370,構,kou,kamau,"posture, build, pretend",9.0,0.27,3.0
+371,割,katsu,"waru, wari","proportion, divide, cut, separate",9.0,0.27,3.0
+372,身,shin,mi,"somebody, person",9.0,0.27,3.0
+373,費,hi,tsuiyasu,"expense, consume",9.0,0.27,3.0
+374,付,fu,tsukeru,"adhere, attach, refer, to, append",9.0,0.27,3.0
+375,由,"yu, yuu","yoshi, yoru","wherefore, a, reason",9.0,0.27,3.0
+376,説,"setsu, zei",toku,"opinion, theory, explanation",9.0,0.27,3.0
+377,難,/,"katai, muzukashii, nikui","difficult, trouble, accident",9.0,0.27,3.0
+378,優,"yuu, u","yasashii, sugureru","tenderness, kind, actor",9.0,0.27,3.0
+379,夫,"fu, fuu",otto,"husband, man",9.0,0.27,3.0
+380,収,shuu,osameru,"income, obtain, reap, pay, supply, store",9.0,0.27,3.0
+381,断,dan,"tatsu, kotowaru","severance, decline, refuse, apologize",9.0,0.27,3.0
+382,石,"seki, shaku, koku",ishi,stone,9.0,0.27,3.0
+383,違,i,"chigau, tagau","difference, differ",9.0,0.27,3.0
+384,消,shou,"kieru, kesu","extinguish, turn, off",9.0,0.27,3.0
+385,神,"shin, jin",kami,"gods, mind, soul",9.0,0.27,3.0
+386,番,ban,tsugai,"turn, number, in, a, series",9.0,0.27,3.0
+387,規,ki,/,"standard, measure",9.0,0.27,3.0
+388,術,jutsu,sube,"art, technique, skill, means, trick",9.0,0.27,3.0
+389,備,bi,sonaeru,"equip, provision, preparation",9.0,0.27,3.0
+390,宅,taku,/,"home, house, residence",9.0,0.27,3.0
+391,害,gai,/,"harm, injury",9.0,0.27,3.0
+392,配,hai,kubaru,"distribute, spouse",9.0,0.27,3.0
+393,警,kei,/,"admonish, commandment",9.0,0.27,3.0
+394,育,iku,"sodatsu, hagukumu","bring, up, grow, up, raise",9.0,0.27,3.0
+395,席,seki,mushiro,seat,9.0,0.27,3.0
+396,訪,hou,"toozureru, tazuneru","call, on, visit",9.0,0.27,3.0
+397,乗,"jou, shou",noru,ride,9.0,0.27,3.0
+398,残,zan,nokoru,"remainder, balance",9.0,0.27,3.0
+399,想,"sou, so",omou,"concept, think, idea",9.0,0.27,3.0
+400,声,"sei, shou",koe,voice,9.0,0.27,3.0
+401,助,jo,tasukeru,"help, rescue, assist",9.0,0.27,3.0
+402,労,rou,"rousuru, itawaru, negirau","labor, thank, for",9.0,0.27,3.0
+403,例,rei,tatoeba,example,9.0,0.27,3.0
+404,然,"zen, nen","shika, sa","sort, of, thing, if, so",9.0,0.27,3.0
+405,限,gen,kagiru,"limit, restrict",9.0,0.27,3.0
+406,追,tsui,ou,"chase, drive, away",9.0,0.27,3.0
+407,商,shou,akinau,"deal;, selling;, merchant",9.0,0.27,3.0
+408,葉,you,ha,"leaf, plane, needle, blade, counter, for, flat, things",9.0,0.27,3.0
+409,伝,den,tsutawaru,"transmit, go, along, walk, along, follow, report, communicate, legend, tradition",9.0,0.27,3.0
+410,働,dou,hataraku,work,9.0,0.27,3.0
+411,形,"kei, gyou","kata, katachi, nari","shape, form, style",9.0,0.27,3.0
+412,景,"kei, ke",/,"scenery, view",9.0,0.27,3.0
+413,落,raku,ochiru,"fall, drop",9.0,0.27,3.0
+414,好,kou,"konomu, suku","fond, pleasing, like, something",9.0,0.27,3.0
+415,退,tai,"shirizoku, hiku, nokeru, doku","retreat, withdraw, retire, resign, repel, expel, reject",9.0,0.27,3.0
+416,頭,"tou, zu, to","atama, kashira",head,9.0,0.27,3.0
+417,負,fu,"makeru, ou","defeat, negative, minus, assume, a, responsibility",9.0,0.27,3.0
+418,渡,to,wataru,"transit, ferry, cross",9.0,0.27,3.0
+419,失,shitsu,"ushinau, useru","lose, error, fault, disadvantage, loss",9.0,0.27,3.0
+420,差,sa,sasu,"distinction, difference, variation",9.0,0.27,3.0
+421,末,matsu,sue,"end, close, tip",9.0,0.27,3.0
+422,守,"shu, su","mamoru, mori","guard, protect, obey",9.0,0.27,3.0
+423,若,jaku,"wakai, moshi",young,9.0,0.27,3.0
+424,種,shu,"tane, -gusa","species, kind, class, seed",9.0,0.27,3.0
+425,美,"bi, mi",utsukushii,"beauty, beautiful",9.0,0.27,3.0
+426,命,"mei, myou",inochi,"fate, command",9.0,0.27,3.0
+427,福,fuku,/,"blessing, fortune, luck, wealth",9.0,0.27,3.0
+428,望,bou,"nozomu, mochi","ambition, full, moon, hope, desire, aspire, to, expect",9.0,0.27,3.0
+429,非,hi,arazu,"un-, mistake, negative",9.0,0.27,3.0
+430,観,kan,miru,"outlook, appearance, condition",9.0,0.27,3.0
+431,察,satsu,/,"guess, presume, judge",9.0,0.27,3.0
+432,段,dan,/,"grade, steps, stairs",9.0,0.27,3.0
+433,横,ou,yoko,"sideways, side",9.0,0.27,3.0
+434,深,shin,fukai,"deep, heighten",9.0,0.27,3.0
+435,申,shin,"mousu, saru","have, the, honor, to",9.0,0.27,3.0
+436,様,you,"sama, san","manner, situation, polite, suffix",9.0,0.27,3.0
+437,財,"zai, sai, zoku",/,"property, money, wealth, assets",9.0,0.27,3.0
+438,港,kou,minato,"harbor, port",9.0,0.27,3.0
+439,識,shiki,shiru,know,9.0,0.27,3.0
+440,呼,ko,yobu,"call, invite",9.0,0.27,3.0
+441,達,"tatsu, da","accomplished, reach, arrive, attain",15,9.0,0.27,3.0
+442,良,ryou,"yoi, ii",good,9.0,0.27,3.0
+443,阪,han,saka,"heights, slope",9.0,0.27,3.0
+444,候,kou,sourou,"climate, season, weather",9.0,0.27,3.0
+445,程,tei,hodo,"extent, degree",9.0,0.27,3.0
+446,満,man,michiru,"full, fullness, enough, satisfy",9.0,0.27,3.0
+447,敗,hai,yabureru,"failure, defeat",9.0,0.27,3.0
+448,値,chi,"ne, atai","price, cost, value",9.0,0.27,3.0
+449,突,"totsu, ka",tsuku,"stab, protruding, thrust",9.0,0.27,3.0
+450,光,kou,"hikaru, hikari","ray, light",9.0,0.27,3.0
+451,路,"ro, ru",michi,"path, route, road",9.0,0.27,3.0
+452,科,ka,/,"department, course, section",9.0,0.27,3.0
+453,積,seki,tsumu,"volume, contents, pile, up, stack",9.0,0.27,3.0
+454,他,ta,hoka,"other, another",9.0,0.27,3.0
+455,処,sho,/,"dispose, manage, deal, with",9.0,0.27,3.0
+456,太,"tai, ta",futoi,"plump, thick, big, around",9.0,0.27,3.0
+457,客,"kyaku, kaku",/,"guest, visitor, customer",9.0,0.27,3.0
+458,否,hi,"ina, iya","negate, no, decline",9.0,0.27,3.0
+459,師,shi,/,"expert, teacher, master",9.0,0.27,3.0
+460,登,"tou, to","noboru, agaru","ascend, climb, up",9.0,0.27,3.0
+461,易,"eki, i","yasashii, yasui","easy, ready, to, simple",9.0,0.27,3.0
+462,速,soku,hayai,"quick, fast",9.0,0.27,3.0
+463,存,"son, zon",/,"exist, be, aware, of",9.0,0.27,3.0
+464,飛,hi,tobu,fly,9.0,0.27,3.0
+465,殺,"satsu, sai",korosu,"kill, murder",9.0,0.27,3.0
+466,号,gou,/,"number, item",9.0,0.27,3.0
+467,単,tan,hitoe,"simple, single",9.0,0.27,3.0
+468,座,za,suwaru,"squat, seat, sit",9.0,0.27,3.0
+469,破,ha,yaburu,"rip, tear, break",9.0,0.27,3.0
+470,除,"jo, ji",nozoku,"exclude, remove",9.0,0.27,3.0
+471,完,kan,/,"perfect, completion",9.0,0.27,3.0
+472,降,"kou, go","oriru, furu","descend, precipitate, fall, surrender",9.0,0.27,3.0
+473,責,seki,semeru,"blame, condemn",9.0,0.27,3.0
+474,捕,ho,"toraeru, tsukamaeru","catch, capture",9.0,0.27,3.0
+475,危,ki,"abunai, ayaui","dangerous, fear, uneasy",9.0,0.27,3.0
+476,給,kyuu,"tamau, tamou","salary, wage, gift",9.0,0.27,3.0
+477,苦,ku,"kurushii, nigai","suffering, bitter",9.0,0.27,3.0
+478,迎,gei,mukaeru,"welcome, meet, greet",9.0,0.27,3.0
+479,園,en,sono,"park, garden, yard",9.0,0.27,3.0
+480,具,gu,"sonaeru, tsubasani","tool, utensil",9.0,0.27,3.0
+481,辞,ji,yameru,"resign, word, term",9.0,0.27,3.0
+482,因,in,"yoru, chinamu","cause, factor, depend, on",9.0,0.27,3.0
+483,馬,ba,uma,horse,9.0,0.27,3.0
+484,愛,ai,"itoshii, mana","love, affection",9.0,0.27,3.0
+485,富,"fu, fuu","tomu, tomi","wealth, enrich, abundant",9.0,0.27,3.0
+486,彼,hi,"kare, kano","he, him",9.0,0.27,3.0
+487,未,"mi, bi","imada, mada","un-, not, yet",9.0,0.27,3.0
+488,舞,bu,"mau, mai","dance, circle",9.0,0.27,3.0
+489,亡,"bou, mou",nakunaru,"deceased, dying",9.0,0.27,3.0
+490,冷,rei,"tsumetai, hieru, sameru","cool, cold, chill",9.0,0.27,3.0
+491,適,teki,kanau,"suitable, occasional, rare",9.0,0.27,3.0
+492,婦,fu,yome,"lady, woman, wife",9.0,0.27,3.0
+493,寄,ki,yoru,"draw, near, gather",9.0,0.27,3.0
+494,込,/,komu,"crowded, mixture",9.0,0.27,3.0
+495,顔,gan,kao,"face, expression",9.0,0.27,3.0
+496,類,rui,tagui,"sort, kind, variety, class, genus",9.0,0.27,3.0
+497,余,yo,amaru,"too, much, surplus",9.0,0.27,3.0
+498,王,ou,/,"king, rule",9.0,0.27,3.0
+499,返,hen,kaesu,"return, answer",9.0,0.27,3.0
+500,妻,sai,tsuma,"wife, spouse",9.0,0.27,3.0
+501,背,hai,"se, sei","stature, height, back",9.0,0.27,3.0
+502,熱,netsu,atsui,"heat, fever, passion",9.0,0.27,3.0
+503,宿,shuku,yado,"inn, lodging",9.0,0.27,3.0
+504,薬,yaku,kusuri,"medicine, chemical",9.0,0.27,3.0
+505,険,ken,kewashii,"precipitous, inaccessible, place",9.0,0.27,3.0
+506,頼,rai,"tanomu, tayoru","trust, request",9.0,0.27,3.0
+507,覚,kaku,"oboeru, samasu","memorize, learn, remember, awake",9.0,0.27,3.0
+508,船,sen,"fune, funa","ship, boat",9.0,0.27,3.0
+509,途,to,michi,"route, way, road",9.0,0.27,3.0
+510,許,kyo,yurusu,"permit, approve",9.0,0.27,3.0
+511,抜,batsu,nuku,"slip, out, extract, pull, out, remove",9.0,0.27,3.0
+512,便,"ben, bin",tayori,"convenience, facility",9.0,0.27,3.0
+513,留,"ryuu, ru","tomaru, todomeru","detain, fasten, halt, stop",9.0,0.27,3.0
+514,罪,zai,tsumi,"guilt, sin, crime",9.0,0.27,3.0
+515,努,do,tsutomeru,"toil, diligent, as, much, as, possible",9.0,0.27,3.0
+516,精,"sei, shou",shirageru,"refined, ghost, fairy, energy",9.0,0.27,3.0
+517,散,san,"chiru, barakeru","scatter, disperse",9.0,0.27,3.0
+518,静,"sei, jou",shizuka,quiet,9.0,0.27,3.0
+519,婚,kon,/,marriage,9.0,0.27,3.0
+520,喜,ki,yorokobu,"rejoice, take, pleasure, in",9.0,0.27,3.0
+521,浮,fu,ukabu,"float, rise, to, surface",9.0,0.27,3.0
+522,絶,zetsu,taeru,"discontinue, unparalleled",9.0,0.27,3.0
+523,幸,kou,"saiwai, sara, shiawase","happiness, blessing, fortune",9.0,0.27,3.0
+524,押,ou,osu,push,9.0,0.27,3.0
+525,倒,tou,"overthrow, fall, collapse",15,9.0,0.27,3.0
+526,等,tou,"hitoshii, nado","etc., and, so, forth",9.0,0.27,3.0
+527,老,rou,"oiru, fukeru",old,9.0,0.27,3.0
+528,曲,kyoku,magaru,"bend, music, melody",9.0,0.27,3.0
+529,払,/,harau,pay,9.0,0.27,3.0
+530,庭,tei,niwa,"courtyard, garden, yard",9.0,0.27,3.0
+531,徒,to,"itazura, ada","on, foot, junior, vanity, futility, uselessness",9.0,0.27,3.0
+532,勤,"kin, gon",tsutomeru,"diligence, employed, serve",9.0,0.27,3.0
+533,遅,chi,"okureru, osoi","slow, late, back, later",9.0,0.27,3.0
+534,居,"kyo, ko","iru, oru","reside, to, be, exist",9.0,0.27,3.0
+535,雑,"zatsu, zou",majiru,miscellaneous,9.0,0.27,3.0
+536,招,shou,maneku,"invite, summon, engage",9.0,0.27,3.0
+537,困,kon,komaru,"quandary, become, distressed",9.0,0.27,3.0
+538,欠,"ketsu, ken",kakeru,"lack, gap",9.0,0.27,3.0
+539,更,kou,"sarani, fukeru","renew, renovate, again",9.0,0.27,3.0
+540,刻,koku,kizamu,"engrave, cut, fine, chop",9.0,0.27,3.0
+541,賛,san,/,"approve, praise",9.0,0.27,3.0
+542,抱,hou,"daku, idaku, kakaeru","embrace, hug",9.0,0.27,3.0
+543,犯,han,okasu,"crime, sin, offense",9.0,0.27,3.0
+544,恐,kyou,"osoreru, kowai","fear, dread",9.0,0.27,3.0
+545,息,"musu, soku",iki,"breath, son, interest, on, money",9.0,0.27,3.0
+546,遠,"en, on",tooi,"distant, far",9.0,0.27,3.0
+547,戻,rei,modoru,"re-, return, revert",9.0,0.27,3.0
+548,願,gan,negau,"petition, request, wish",9.0,0.27,3.0
+549,絵,"kai, e",/,"picture, drawing",9.0,0.27,3.0
+550,越,etsu,kosu,"surpass, cross, over, move, to, exceed",9.0,0.27,3.0
+551,欲,yoku,hoshii,"longing, greed, passion",9.0,0.27,3.0
+552,痛,tsuu,itai,"pain, hurt, damage, bruise",9.0,0.27,3.0
+553,笑,shou,"warau, emu",laugh,9.0,0.27,3.0
+554,互,go,"tagai, katamini","mutually, reciprocally, together",9.0,0.27,3.0
+555,束,soku,"taba, tsuka","bundle, manage",9.0,0.27,3.0
+556,似,"ji, ne",niru,"becoming, resemble, imitate",9.0,0.27,3.0
+557,列,"retsu, re",/,"file, row, column",9.0,0.27,3.0
+558,探,tan,"saguru, sagasu","search, look, for",9.0,0.27,3.0
+559,逃,tou,"nigeru, nogasu","escape, flee",9.0,0.27,3.0
+560,遊,yuu,asobu,play,9.0,0.27,3.0
+561,迷,mei,mayou,"astray, be, perplexed, in, doubt, lost",9.0,0.27,3.0
+562,夢,mu,yume,"dream, vision",9.0,0.27,3.0
+563,君,kun,kimi,"you, male, name, suffix",9.0,0.27,3.0
+564,閉,hei,"tojiru, shimeru","closed, shut",9.0,0.27,3.0
+565,緒,sho,o,"beginning, end, cord, strap",9.0,0.27,3.0
+566,折,"setsu, shaku","oru, ori","fold, break, fracture",9.0,0.27,3.0
+567,草,sou,kusa,"grass, weeds, herbs",9.0,0.27,3.0
+568,暮,bo,kurasu,"evening, livelihood",9.0,0.27,3.0
+569,酒,shu,"sake, saka-","sake, alcohol",9.0,0.27,3.0
+570,悲,hi,kanashii,"grieve, sad",9.0,0.27,3.0
+571,晴,sei,hareru,"clear, up",9.0,0.27,3.0
+572,掛,kei,kakeru,"hang, suspend",9.0,0.27,3.0
+573,到,tou,itaru,"arrival, proceed, reach",9.0,0.27,3.0
+574,寝,shin,neru,"lie, down, sleep, rest",9.0,0.27,3.0
+575,暗,an,kurai,"darkness, disappear, shade, informal",9.0,0.27,3.0
+576,盗,tou,nusumu,"steal, rob",9.0,0.27,3.0
+577,吸,kyuu,suu,"suck, inhale",9.0,0.27,3.0
+578,陽,you,hi,"sunshine, positive",9.0,0.27,3.0
+579,御,"gyo, go","on, o",honorable,9.0,0.27,3.0
+580,歯,shi,ha,"tooth, cog",9.0,0.27,3.0
+581,忘,bou,wasureru,forget,9.0,0.27,3.0
+582,雪,setsu,yuki,snow,9.0,0.27,3.0
+583,吹,sui,fuku,"blow, breathe, puff",9.0,0.27,3.0
+584,娘,jou,"musume, ko","daughter, girl",9.0,0.27,3.0
+585,誤,go,ayamaru,mistake,9.0,0.27,3.0
+586,洗,sen,arau,wash,9.0,0.27,3.0
+587,慣,kan,nareru,"accustomed, get, used, to",9.0,0.27,3.0
+588,礼,"rei, rai",/,"salute, bow, ceremony, thanks",9.0,0.27,3.0
+589,窓,sou,mado,"window, pane",9.0,0.27,3.0
+590,昔,"seki, shaku",mukashi,"once, upon, a, time, old, times",9.0,0.27,3.0
+591,貧,"hin, bin",mazushii,"poverty, poor",9.0,0.27,3.0
+592,怒,do,"ikaru, okoru","angry, be, offended",9.0,0.27,3.0
+593,泳,ei,oyogu,swim,9.0,0.27,3.0
+594,祖,so,/,"ancestor, pioneer, founder",9.0,0.27,3.0
+595,杯,hai,sakazuki,"glass, cup",9.0,0.27,3.0
+596,疲,hi,"exhausted, tire",15,9.0,0.27,3.0
+597,皆,kai,"mina, minna","all, everyone, everybody",9.0,0.27,3.0
+598,鳴,mei,"naku, naru","chirp, cry, bark",9.0,0.27,3.0
+599,腹,fuku,hara,"abdomen, belly, stomach",9.0,0.27,3.0
+600,煙,en,"kemuru, kemuri",smoke,9.0,0.27,3.0
+601,眠,min,nemuru,sleep,9.0,0.27,3.0
+602,怖,fu,"kowai, ojiru","dreadful, fearful",9.0,0.27,3.0
+603,耳,ji,mimi,ear,9.0,0.27,3.0
+604,頂,chou,itadaku,"receive, top, summit, peak",9.0,0.27,3.0
+605,箱,sou,hako,"box, chest",9.0,0.27,3.0
+606,晩,ban,/,"nightfall, night",9.0,0.27,3.0
+607,寒,kan,samui,cold,9.0,0.27,3.0
+608,髪,hatsu,kami,"hair, on, the, head",9.0,0.27,3.0
+609,忙,"bou, mou","busy, occupied",15,9.0,0.27,3.0
+610,才,sai,/,"genius, years, old",9.0,0.27,3.0
+611,靴,ka,kutsu,shoes,9.0,0.27,3.0
+612,恥,chi,"haji, hazukashii","shame, dishonor",9.0,0.27,3.0
+613,偶,guu,tama,"accidentally, even, number",9.0,0.27,3.0
+614,偉,i,erai,"admirable, greatness",9.0,0.27,3.0
+615,猫,byou,neko,cat,9.0,0.27,3.0
+616,幾,ki,ikutsu,"how, many, how, much, some",9.0,0.27,3.0
+617,誰,sui,dare,"who, someone, somebody",9.0,0.27,3.0
+618,党,tou,"nakama, mura","party, faction, clique",9.0,0.267,2.0
+619,協,kyou,/,"co-, cooperation",9.0,0.267,2.0
+620,総,sou,"subete, fusa","general, whole, all",9.0,0.267,2.0
+621,区,ku,/,"ward, district",9.0,0.267,2.0
+622,領,ryou,eri,"jurisdiction, dominion",9.0,0.267,2.0
+623,県,ken,kakeru,prefecture,9.0,0.267,2.0
+624,設,setsu,moukeru,"establishment, provision",9.0,0.267,2.0
+625,保,"ho, hou",tamotsu,"protect, guarantee, keep",9.0,0.267,2.0
+626,改,kai,aratameru,"reformation, change, modify",9.0,0.267,2.0
+627,第,dai,/,"No., number",9.0,0.267,2.0
+628,結,ketsu,"musubu, yuu","tie, bind, contract",9.0,0.267,2.0
+629,派,ha,/,"faction, group, party",9.0,0.267,2.0
+630,府,fu,/,"borough, urban, prefecture, govt, office",9.0,0.267,2.0
+631,査,sa,/,investigate,9.0,0.267,2.0
+632,委,i,yudaneru,"committee, entrust, to",9.0,0.267,2.0
+633,軍,gun,ikusa,"army, force, troops",9.0,0.267,2.0
+634,案,an,tsukue,"plan, suggestion, draft",9.0,0.267,2.0
+635,策,saku,/,"scheme, plan, policy",9.0,0.267,2.0
+636,団,"dan, ton","katamari, marui","group, association",9.0,0.267,2.0
+637,各,kaku,onoono,"each;, every;, either",9.0,0.267,2.0
+638,島,tou,shima,island,9.0,0.267,2.0
+639,革,kaku,kawa,"leather;, skin;, reform;, become, serious",9.0,0.267,2.0
+640,村,son,mura,"village;, town",9.0,0.267,2.0
+641,勢,sei,ikioi,"forces;, energy;, military, strength",9.0,0.267,2.0
+642,減,gen,heru,"dwindle;, decrease;, reduce",9.0,0.267,2.0
+643,再,"sai, sa",futatabi,"again, twice, second, time",9.0,0.267,2.0
+644,税,zei,/,"tax;, duty",9.0,0.267,2.0
+645,営,ei,itonamu,"occupation;, camp;, perform;, build;, conduct, business",9.0,0.267,2.0
+646,比,hi,kuraberu,"compare;, race;, ratio",9.0,0.267,2.0
+647,防,bou,fusegu,"ward, off;, defend;, protect;, resist",9.0,0.267,2.0
+648,補,ho,oginau,"supplement;, supply;, offset;, compensate",9.0,0.267,2.0
+649,境,kyou,sakai,"boundary, border, region",9.0,0.267,2.0
+650,導,dou,michibiku,"guidance;, leading;, conduct;, usher",9.0,0.267,2.0
+651,副,fuku,/,"vice-;, assistant;, aide;, duplicate;, copy",9.0,0.267,2.0
+652,算,san,soro,"calculate;, divining;, number;, probability",9.0,0.267,2.0
+653,輸,"yu, shu",/,"transport, send, be, inferior",9.0,0.267,2.0
+654,述,jutsu,noberu,"mention;, state;, speak",9.0,0.267,2.0
+655,線,sen,suji,"line;, track",9.0,0.267,2.0
+656,農,nou,/,"agriculture;, farmers",9.0,0.267,2.0
+657,州,shuu,su,"state;, province",9.0,0.267,2.0
+658,武,"bu, mu",takeshi,"warrior;, military;, chivalry;, arms",9.0,0.267,2.0
+659,象,"shou, zou",katadoru,"elephant;, pattern, after;, image;, shape",9.0,0.267,2.0
+660,域,iki,/,"range;, region;, limits;, stage;, level",9.0,0.267,2.0
+661,額,gaku,hitai,"forehead;, tablet;, framed, picture;, sum;, amount;, volume",9.0,0.267,2.0
+662,欧,ou,"utau, haku",Europe,9.0,0.267,2.0
+663,担,tan,"katsugu, ninau","shouldering;, carry;, raise;, bear",9.0,0.267,2.0
+664,準,jun,"junjiru, nazoraeru","semi-;, correspond, to;, imitate",9.0,0.267,2.0
+665,賞,shou,homeru,"prize;, reward;, praise",9.0,0.267,2.0
+666,辺,hen,"atari, hotori","environs;, boundary;, border;, vicinity",9.0,0.267,2.0
+667,造,zou,tsukuru,"create;, make;, structure;, physique",9.0,0.267,2.0
+668,被,hi,"koumuru, kaburu","incur;, cover;, shelter;, wear;, put, on",9.0,0.267,2.0
+669,技,gi,waza,"skill;, art;, craft;, ability;, vocation;, arts",9.0,0.267,2.0
+670,低,tei,hikui,"lower;, short;, humble",9.0,0.267,2.0
+671,復,fuku,mata,"restore, return, to, revert",9.0,0.267,2.0
+672,移,i,utsuru,"shift, move, change",9.0,0.267,2.0
+673,個,ko,/,"individual;, counter, for, articles",9.0,0.267,2.0
+674,門,mon,"kado, to",gate,9.0,0.267,2.0
+675,課,ka,/,"chapter, lesson, section, department",9.0,0.267,2.0
+676,脳,nou,nouzuru,"brain;, memory",9.0,0.267,2.0
+677,極,"kyoku, goku",kiwameru,"poles;, settlement;, conclusion;, end",9.0,0.267,2.0
+678,含,gan,fukumu,"contain;, include",9.0,0.267,2.0
+679,蔵,zou,kura,"storehouse;, hide;, own;, have;, possess",9.0,0.267,2.0
+680,量,ryou,hakaru,"quantity;, measure;, weight;, amount",9.0,0.267,2.0
+681,型,kei,kata,"type;, model",9.0,0.267,2.0
+682,況,kyou,mashite,"condition;, situation",9.0,0.267,2.0
+683,針,shin,hari,"needle;, pin;, staple;, stinger",9.0,0.267,2.0
+684,専,sen,moppara,"specialty;, exclusive;, mainly;, solely",9.0,0.267,2.0
+685,谷,koku,"tani, kiwamaru",valley,9.0,0.267,2.0
+686,史,shi,/,"history;, chronicle",9.0,0.267,2.0
+687,階,kai,kizahashi,"stair;, counter, for, building, story",9.0,0.267,2.0
+688,管,kan,kuda,"pipe;, tube;, wind, instrument;, control;, jurisdiction",9.0,0.267,2.0
+689,兵,"hei, hyou",tsuwamono,"soldier;, private;, troops;, army",9.0,0.267,2.0
+690,接,setsu,tsugu,"touch;, contact;, adjoin;, piece, together",9.0,0.267,2.0
+691,細,sai,"hosoi, komakai","slender;, narrow;, detailed;, precise",9.0,0.267,2.0
+692,効,kou,kiku,"merit;, efficacy;, efficiency;, benefit",9.0,0.267,2.0
+693,丸,gan,"maru, marui","round;, full, month;, perfection",9.0,0.267,2.0
+694,湾,wan,irie,"gulf;, bay;, inlet",9.0,0.267,2.0
+695,録,roku,toru,record,9.0,0.267,2.0
+696,省,"sei, shou","kaerimiru, habuku","focus;, government, ministry;, conserve",9.0,0.267,2.0
+697,旧,kyuu,"furui, moto","old, times;, old, things;, former;, ex-",9.0,0.267,2.0
+698,橋,kyou,hashi,bridge,9.0,0.267,2.0
+699,岸,gan,kishi,beach,9.0,0.267,2.0
+700,周,shuu,mawari,"circumference;, circuit;, lap",9.0,0.267,2.0
+701,材,zai,/,"lumber, log, timber, wood",9.0,0.267,2.0
+702,戸,ko,to,"door;, counter, for, houses",9.0,0.267,2.0
+703,央,ou,/,"center;, middle",9.0,0.267,2.0
+704,券,ken,/,ticket,9.0,0.267,2.0
+705,編,hen,amu,"compilation;, knit;, braid;, twist;, editing",9.0,0.267,2.0
+706,捜,sou,sagasu,"search;, look, for;, locate",9.0,0.267,2.0
+707,竹,chiku,take,bamboo,9.0,0.267,2.0
+708,超,chou,koeru,"transcend;, super-;, ultra-",9.0,0.267,2.0
+709,並,hei,"nami, nami, naraberu","row, and, besides",9.0,0.267,2.0
+710,療,ryou,/,"heal;, cure",9.0,0.267,2.0
+711,採,sai,toru,"pick;, take;, fetch;, take, up",9.0,0.267,2.0
+712,森,shin,mori,"forest, woods",9.0,0.267,2.0
+713,競,"kyou, kei","kisou, seru","compete, with;, bid;, contest;, race",9.0,0.267,2.0
+714,介,kai,/,"jammed, in;, shellfish;, mediate",9.0,0.267,2.0
+715,根,kon,ne,"root;, radical",9.0,0.267,2.0
+716,販,han,/,"marketing, sell, trade",9.0,0.267,2.0
+717,歴,reki,/,"curriculum;, continuation;, passage, of, time",9.0,0.267,2.0
+718,将,shou,"masani, hata","leader;, commander;, general;, admiral",9.0,0.267,2.0
+719,幅,fuku,haba,"hanging, scroll;, width",9.0,0.267,2.0
+720,般,han,/,"carrier;, carry;, all;, general;, sort;, kind",9.0,0.267,2.0
+721,貿,bou,/,"trade;, exchange",9.0,0.267,2.0
+722,講,kou,/,"lecture;, club;, association",9.0,0.267,2.0
+723,林,rin,hayashi,"grove;, forest",9.0,0.267,2.0
+724,装,"sou, shou",yosoou,"attire;, dress;, pretend;, disguise",9.0,0.267,2.0
+725,諸,sho,moro,"various;, many;, several;, together",9.0,0.267,2.0
+726,劇,geki,/,"drama;, play",9.0,0.267,2.0
+727,河,ka,kawa,river,9.0,0.267,2.0
+728,航,kou,/,"navigate;, sail;, cruise;, fly",9.0,0.267,2.0
+729,鉄,tetsu,kurogane,iron,9.0,0.267,2.0
+730,児,ji,ko,"newborn, babe;, child",9.0,0.267,2.0
+731,禁,kin,/,"prohibition;, ban;, forbid",9.0,0.267,2.0
+732,印,in,shirushi,"stamp;, seal;, mark;, symbol;, trademark",9.0,0.267,2.0
+733,逆,gyaku,sakarau,"inverted;, reverse;, opposite",9.0,0.267,2.0
+734,換,kan,kaeru,"interchange;, period;, change;, convert;, replace;, renew",9.0,0.267,2.0
+735,久,"kyuu, ku",hisashii,"long, time;, old, story",9.0,0.267,2.0
+736,短,tan,mijikai,"short;, fault;, defect;, weak, point",9.0,0.267,2.0
+737,油,yu,abura,"oil;, fat",9.0,0.267,2.0
+738,暴,"bou, baku",abaku,"outburst;, force;, violence",9.0,0.267,2.0
+739,輪,rin,wa,"wheel;, ring;, circle;, link;, loop;, counter, for, wheels, and, flowers",9.0,0.267,2.0
+740,占,sen,"shimeru, uranau","fortune-telling;, divining;, forecasting",9.0,0.267,2.0
+741,植,shoku,ueru,plant,9.0,0.267,2.0
+742,清,sei,kiyoi,"pure;, purify;, cleanse",9.0,0.267,2.0
+743,倍,bai,/,"double;, twice;, times;, fold",9.0,0.267,2.0
+744,均,kin,narasu,"level;, average",9.0,0.267,2.0
+745,億,oku,/,"hundred, million;, 10**8",9.0,0.267,2.0
+746,圧,atsu,osu,"pressure;, push;, overwhelm;, oppress",9.0,0.267,2.0
+747,芸,gei,"ueru, nori, waza","technique;, art;, craft;, performance;, acting",9.0,0.267,2.0
+748,署,sho,/,"signature;, govt, office;, police, station",9.0,0.267,2.0
+749,伸,shin,nobiru,"expand;, stretch;, extend",9.0,0.267,2.0
+750,停,tei,tomeru,"halt;, stopping",9.0,0.267,2.0
+751,爆,baku,hazeru,"bomb;, burst, open",9.0,0.267,2.0
+752,陸,"riku, roku",oka,"land;, six",9.0,0.267,2.0
+753,玉,gyoku,tama,"jewel;, ball",9.0,0.267,2.0
+754,波,ha,nami,"waves;, billows",9.0,0.267,2.0
+755,帯,tai,obiru,"sash;, belt;, obi;, zone;, region",9.0,0.267,2.0
+756,延,en,nobiru,"prolong;, stretching",9.0,0.267,2.0
+757,羽,u,"ha, wa, hane","feathers;, counter, for, birds, rabbits",9.0,0.267,2.0
+758,固,ko,katameru,"harden;, set;, clot;, curdle",9.0,0.267,2.0
+759,則,soku,nottoru,"rule;, follow;, based, on",9.0,0.267,2.0
+760,乱,ran,midareru,"riot;, war;, disorder;, disturb",9.0,0.267,2.0
+761,普,fu,amaneku,"universal;, generally",9.0,0.267,2.0
+762,測,soku,hakaru,"fathom;, plan;, scheme;, measure",9.0,0.267,2.0
+763,豊,"hou, bu","yutaka, toyo","bountiful;, excellent;, rich",9.0,0.267,2.0
+764,厚,kou,atsui,"thick;, heavy;, rich",9.0,0.267,2.0
+765,齢,rei,"yowai, toshi",age,9.0,0.267,2.0
+766,囲,i,kakomu,"surround;, enclosure;, preserve;, keep",9.0,0.267,2.0
+767,卒,sotsu,sossuru,"graduate;, soldier;, private;, die",9.0,0.267,2.0
+768,略,ryaku,hobo,"abbreviation;, omission;, outline;, shorten",9.0,0.267,2.0
+769,承,shou,uketamawaru,"hear;, listen, to;, be, informed;, receive",9.0,0.267,2.0
+770,順,jun,/,"obey;, order;, turn;, occasion",9.0,0.267,2.0
+771,岩,gan,iwa,"boulder;, rock;, cliff",9.0,0.267,2.0
+772,練,ren,neru,"practice, gloss, train, drill, polish, refine",9.0,0.267,2.0
+773,軽,kei,karui,"lightly;, trifling;, unimportant",9.0,0.267,2.0
+774,了,ryou,/,"complete;, finish",9.0,0.267,2.0
+775,庁,chou,yakusho,"government, office",9.0,0.267,2.0
+776,城,"jou, sei",shiro,castle,9.0,0.267,2.0
+777,患,kan,wazurau,"afflicted;, disease;, suffer, from;, be, ill",9.0,0.267,2.0
+778,層,sou,/,"stratum;, social, class;, layer;, story;, floor",9.0,0.267,2.0
+779,版,han,/,"printing, block;, edition;, impression;, label",9.0,0.267,2.0
+780,令,rei,/,"orders;, command;, decree",9.0,0.267,2.0
+781,角,kaku,"kado, tsuno","angle;, corner;, square",9.0,0.267,2.0
+782,絡,raku,karamu,"entwine;, coil, around;, get, caught, in",9.0,0.267,2.0
+783,損,son,sokonau,"damage;, loss;, disadvantage;, hurt;, injure",9.0,0.267,2.0
+784,募,bo,tsunoru,"recruit;, campaign",9.0,0.267,2.0
+785,裏,ri,ura,"back;, reverse;, inside;, rear",9.0,0.267,2.0
+786,仏,butsu,hotoke,"Buddha, the, dead, France",9.0,0.267,2.0
+787,績,seki,/,"exploits;, achievements",9.0,0.267,2.0
+788,築,chiku,kizuku,"fabricate;, build;, construct",9.0,0.267,2.0
+789,貨,ka,takara,"freight;, goods;, property",9.0,0.267,2.0
+790,混,kon,majiru,"mix;, blend;, confuse",9.0,0.267,2.0
+791,昇,shou,noboru,"rise, up",9.0,0.267,2.0
+792,池,chi,ike,"pond;, pool;, reservoir",9.0,0.267,2.0
+793,血,ketsu,chi,blood,9.0,0.267,2.0
+794,温,on,"atatakai, nuku",warm,9.0,0.267,2.0
+795,季,ki,/,seasons,9.0,0.267,2.0
+796,星,sei,hoshi,star,9.0,0.267,2.0
+797,永,ei,nagai,"eternity;, long;, lengthy",9.0,0.267,2.0
+798,著,"cho, chaku","arawasu, ichijirushii","renowned;, publish;, write",9.0,0.267,2.0
+799,誌,shi,/,"document;, records",9.0,0.267,2.0
+800,庫,"ko, ku",kura,"warehouse;, storehouse",9.0,0.267,2.0
+801,刊,kan,/,"publish;, carve;, engrave",9.0,0.267,2.0
+802,像,zou,/,"statue;, picture;, image;, figure",9.0,0.267,2.0
+803,香,"kou, kyou",kaori,"incense;, smell;, perfume",9.0,0.267,2.0
+804,坂,han,saka,"slope;, incline;, hill",9.0,0.267,2.0
+805,底,tei,soko,"bottom;, sole;, depth;, bottom, price",9.0,0.267,2.0
+806,布,fu,"nuno, shiku","linen;, cloth;, spread;, distribute",9.0,0.267,2.0
+807,寺,ji,tera,"Buddhist, temple",9.0,0.267,2.0
+808,宇,u,/,"eaves;, roof;, house;, heaven",9.0,0.267,2.0
+809,巨,kyo,/,"gigantic;, big;, large;, great",9.0,0.267,2.0
+810,震,shin,furuu,"quake;, shake;, tremble;, quiver",9.0,0.267,2.0
+811,希,ki,"mare, koinegau","hope;, beg;, request;, pray",9.0,0.267,2.0
+812,触,shoku,"fureru, sawaru","contact;, touch;, feel;, hit;, proclaim;, announce",9.0,0.267,2.0
+813,依,"i, e",yoru,"reliant;, depend, on;, consequently;, therefore;, due, to",9.0,0.267,2.0
+814,籍,seki,/,"enroll;, register;, membership",9.0,0.267,2.0
+815,汚,o,"yogosu, kitanai, kegasu","dirty;, pollute;, disgrace;, defile",9.0,0.267,2.0
+816,枚,"mai, bai",/,"sheet, of...;, counter, for, flat, thin, objects",9.0,0.267,2.0
+817,複,fuku,/,"duplicate;, double;, compound;, multiple",9.0,0.267,2.0
+818,郵,yuu,/,"mail;, stagecoach, stop",9.0,0.267,2.0
+819,仲,chuu,naka,"go-between;, relationship",9.0,0.267,2.0
+820,栄,ei,sakaeru,"flourish;, prosperity;, honor",9.0,0.267,2.0
+821,札,satsu,fuda,"ticket;, paper, money;, banknote;, note",9.0,0.267,2.0
+822,板,"han, ban",ita,"plank;, board;, plate;, stage",9.0,0.267,2.0
+823,骨,kotsu,hone,"skeleton;, bone;, remains;, frame",9.0,0.267,2.0
+824,傾,kei,katamuku,"lean;, incline;, tilt;, trend;, bias",9.0,0.267,2.0
+825,届,kai,todokeru,"deliver;, reach;, arrive;, report",9.0,0.267,2.0
+826,巻,kan,"maku, maki","scroll;, volume;, book;, part;, roll, up;, wind, up;, coil;, counter, for, texts, or, book, scrolls",9.0,0.267,2.0
+827,燃,nen,moeru,"burn;, blaze;, glow",9.0,0.267,2.0
+828,跡,seki,ato,"tracks;, mark;, print;, impression",9.0,0.267,2.0
+829,包,hou,"tsutsumu, kurumu","wrap;, pack, up;, cover;, conceal",9.0,0.267,2.0
+830,駐,chuu,/,"stop-over;, reside, in;, resident",9.0,0.267,2.0
+831,弱,jaku,yowai,"weak;, frail",9.0,0.267,2.0
+832,紹,shou,/,"introduce;, inherit;, help",9.0,0.267,2.0
+833,雇,ko,yatou,"employ;, hire",9.0,0.267,2.0
+834,替,tai,kawaru,"exchange, spare, substitute",9.0,0.267,2.0
+835,預,yo,azukeru,"deposit;, custody;, leave, with;, entrust, to",9.0,0.267,2.0
+836,焼,shou,yaku,"bake;, burning",9.0,0.267,2.0
+837,簡,kan,"fuda, erabu","simplicity;, brevity",9.0,0.267,2.0
+838,章,shou,/,"badge;, chapter;, composition;, poem",9.0,0.267,2.0
+839,臓,zou,harawata,"entrails;, viscera;, bowels",9.0,0.267,2.0
+840,律,"ritsu, richi",/,"rhythm;, law;, regulation;, control",9.0,0.267,2.0
+841,贈,zou,okuru,"presents;, send;, give, to;, award, to",9.0,0.267,2.0
+842,照,shou,teru,"illuminate;, shine;, compare",9.0,0.267,2.0
+843,薄,haku,usui,"dilute;, thin;, weak, tea",9.0,0.267,2.0
+844,群,gun,"mureru, muragaru","flock;, group;, crowd;, herd",9.0,0.267,2.0
+845,秒,byou,/,second,9.0,0.267,2.0
+846,奥,ou,oku,"heart;, interior",9.0,0.267,2.0
+847,詰,kitsu,tsumeru,"packed;, close;, rebuke;, blame",9.0,0.267,2.0
+848,双,sou,futa,"pair;, set;, comparison;, counter, for, pairs",9.0,0.267,2.0
+849,刺,shi,"sasu, toge","thorn, pierce, stab, prick, sting",9.0,0.267,2.0
+850,純,jun,/,"genuine;, purity;, innocence",9.0,0.267,2.0
+851,翌,yoku,/,"the, following;, next",9.0,0.267,2.0
+852,快,kai,kokoroyoi,"cheerful;, pleasant;, agreeable;, comfortable",9.0,0.267,2.0
+853,片,hen,kata,"one-sided;, piece",9.0,0.267,2.0
+854,敬,kei,uyamau,"awe;, respect;, honor;, revere",9.0,0.267,2.0
+855,悩,nou,nayamu,"trouble;, worry;, in, pain;, distress;, illness",9.0,0.267,2.0
+856,泉,sen,izumi,"spring;, fountain",9.0,0.267,2.0
+857,皮,hi,kawa,"skin;, hide;, leather",9.0,0.267,2.0
+858,漁,"gyo, ryou",asaru,"fishing;, fishery",9.0,0.267,2.0
+859,荒,kou,"arai, areru","rough;, wild",9.0,0.267,2.0
+860,貯,cho,tameru,"savings;, store",9.0,0.267,2.0
+861,硬,kou,katai,"stiff;, hard",9.0,0.267,2.0
+862,埋,mai,umeru,"bury;, be, filled, up;, embedded",9.0,0.267,2.0
+863,柱,chuu,hashira,"pillar;, post;, cylinder;, support",9.0,0.267,2.0
+864,祭,sai,matsuri,"ritual;, offer, prayers;, celebrate",9.0,0.267,2.0
+865,袋,tai,fukuro,"sack;, bag;, pouch",9.0,0.267,2.0
+866,筆,hitsu,fude,"writing, brush;, writing;, painting, brush;, handwriting",9.0,0.267,2.0
+867,訓,kun,"yomu, kunzuru","instruction, explanation, read",9.0,0.267,2.0
+868,浴,yoku,abiru,"bathe;, be, favored, with;, bask, in",9.0,0.267,2.0
+869,童,dou,warabe,"juvenile;, child",9.0,0.267,2.0
+870,宝,hou,takara,"treasure;, wealth;, valuables",9.0,0.267,2.0
+871,封,"fuu, hou",/,"seal;, closing",9.0,0.267,2.0
+872,胸,kyou,mune,"bosom;, breast;, chest;, heart;, feelings",9.0,0.267,2.0
+873,砂,"sa, sha",suna,sand,9.0,0.267,2.0
+874,塩,en,shio,salt,9.0,0.267,2.0
+875,賢,ken,kashikoi,"intelligent;, wise;, wisdom;, cleverness",9.0,0.267,2.0
+876,腕,wan,ude,"arm;, ability;, talent",9.0,0.267,2.0
+877,兆,chou,kizasu,"trillion;, sign;, omen;, symptoms",9.0,0.267,2.0
+878,床,shou,"toko, yuka","bed;, counter, for, beds;, floor;, padding;, tatami",9.0,0.267,2.0
+879,毛,mou,ke,"fur;, hair;, feather",9.0,0.267,2.0
+880,緑,"ryoku, roku",midori,green,9.0,0.267,2.0
+881,尊,son,toutoi,"revered;, valuable;, precious;, noble",9.0,0.267,2.0
+882,祝,shuku,iwau,"celebrate;, congratulate",9.0,0.267,2.0
+883,柔,"juu, nyuu",yawarakai,"tender;, weakness;, gentleness;, softness",9.0,0.267,2.0
+884,殿,den,"tono, dono","Mr.;, hall;, mansion;, palace;, temple;, lord",9.0,0.267,2.0
+885,濃,nou,koi,"concentrated;, thick;, dark;, undiluted",9.0,0.267,2.0
+886,液,eki,/,"fluid;, liquid;, juice;, sap;, secretion",9.0,0.267,2.0
+887,衣,"i, e","koromo, kinu","garment;, clothes;, dressing",9.0,0.267,2.0
+888,肩,ken,kata,shoulder,9.0,0.267,2.0
+889,零,rei,zero,"zero;, spill;, overflow;, nothing",9.0,0.267,2.0
+890,幼,you,osanai,"infancy;, childhood",9.0,0.267,2.0
+891,荷,ka,ni,"baggage;, load;, cargo;, freight",9.0,0.267,2.0
+892,泊,haku,tomaru,"overnight, stay",9.0,0.267,2.0
+893,黄,"kou, ou",ki,yellow,9.0,0.267,2.0
+894,甘,kan,amai,"sweet;, coax;, pamper;, sugary",9.0,0.267,2.0
+895,臣,"shin, jin",/,"retainer;, subject",9.0,0.267,2.0
+896,浅,sen,asai,"shallow;, superficial;, frivolous",9.0,0.267,2.0
+897,掃,sou,haku,"sweep;, brush",9.0,0.267,2.0
+898,雲,un,kumo,cloud,9.0,0.267,2.0
+899,掘,kutsu,horu,"dig;, delve;, excavate",9.0,0.267,2.0
+900,捨,sha,suteru,"discard;, throw, away;, abandon",9.0,0.267,2.0
+901,軟,/,yawarakai,soft,9.0,0.267,2.0
+902,沈,"chin, jin",shizumu,"sink;, be, submerged;, subside;, be, depressed",9.0,0.267,2.0
+903,凍,tou,"kooru, kogoeru","frozen;, refrigerate",9.0,0.267,2.0
+904,乳,nyuu,"chichi, chi","milk, breasts",9.0,0.267,2.0
+905,恋,ren,koishii,"romance;, in, love;, yearn, for;, miss",9.0,0.267,2.0
+906,紅,"kou, ku","beni, kurenai","crimson;, deep, red",9.0,0.267,2.0
+907,郊,kou,/,"outskirts, suburbs, rural, area",9.0,0.267,2.0
+908,腰,you,koshi,"loins;, hips;, waist",9.0,0.267,2.0
+909,炭,tan,sumi,"charcoal;, coal",9.0,0.267,2.0
+910,踊,you,odoru,"jump;, dance;, leap;, skip",9.0,0.267,2.0
+911,冊,satsu,fumi,"counter, for, books;, volume",9.0,0.267,2.0
+912,勇,yuu,isamu,"courage;, cheer, up;, bravery;, heroism",9.0,0.267,2.0
+913,械,kai,kase,"contraption;, machine;, instrument",9.0,0.267,2.0
+914,菜,sai,na,"vegetable;, side, dish;, greens",9.0,0.267,2.0
+915,珍,chin,mezurashii,"rare;, curious;, strange",9.0,0.267,2.0
+916,卵,ran,tamago,egg,9.0,0.267,2.0
+917,湖,ko,mizuumi,lake,9.0,0.267,2.0
+918,喫,kitsu,nomu,"consume, eat, drink, smoke, receive",9.0,0.267,2.0
+919,干,kan,"hosu, hiru","dry;, parch",9.0,0.267,2.0
+920,虫,"chuu, ki",mushi,"insect;, bug",9.0,0.267,2.0
+921,刷,satsu,"suru, haku","printing;, print;, brush",9.0,0.267,2.0
+922,湯,tou,yu,"hot, water;, bath;, hot, spring",9.0,0.267,2.0
+923,溶,you,tokeru,"melt;, dissolve;, thaw",9.0,0.267,2.0
+924,鉱,kou,aragane,"mineral;, ore",9.0,0.267,2.0
+925,涙,rui,namida,"tears;, sympathy",9.0,0.267,2.0
+926,匹,hitsu,hiki,"counter, for, small, animals",9.0,0.267,2.0
+927,孫,son,mago,"grandchild;, descendants",9.0,0.267,2.0
+928,鋭,ei,surudoi,"pointed;, sharpness;, edge;, weapon;, sharp;, violent",9.0,0.267,2.0
+929,枝,shi,eda,"bough;, branch;, twig;, limb;, counter, for, branches",9.0,0.267,2.0
+930,塗,to,"paint;, smear;, coating",15,9.0,0.267,2.0
+931,軒,ken,noki,"flats;, counter, for, houses",9.0,0.267,2.0
+932,毒,doku,/,"poison;, germ;, harm",9.0,0.267,2.0
+933,叫,kyou,sakebu,"shout;, exclaim;, yell",9.0,0.267,2.0
+934,拝,hai,ogamu,"worship;, adore;, pray, to",9.0,0.267,2.0
+935,氷,hyou,"koori, hi","ice;, hail;, freeze",9.0,0.267,2.0
+936,乾,kan,kawaku,"drought;, dry;, drink, up;, heaven",9.0,0.267,2.0
+937,棒,bou,/,"rod;, stick;, cane;, pole",9.0,0.267,2.0
+938,祈,ki,inoru,"pray;, wish",9.0,0.267,2.0
+939,拾,shuu,hirou,"pick, up;, gather;, find",9.0,0.267,2.0
+940,粉,fun,"ko, kona","flour;, powder;, dust",9.0,0.267,2.0
+941,糸,shi,ito,thread,9.0,0.267,2.0
+942,綿,men,wata,cotton,9.0,0.267,2.0
+943,汗,kan,ase,"sweat;, perspire",9.0,0.267,2.0
+944,銅,dou,akagane,copper,9.0,0.267,2.0
+945,湿,shitsu,shimeru,"damp;, wet;, moist",9.0,0.267,2.0
+946,瓶,bin,"kame, hei","bottle;, jar;, jug;, urn",9.0,0.267,2.0
+947,咲,shou,saku,"blossom;, bloom",9.0,0.267,2.0
+948,召,shou,mesu,"call;, send, for;, wear;, buy, to, eat, to, drink",9.0,0.267,2.0
+949,缶,kan,kama,"tin, can;, container",9.0,0.267,2.0
+950,隻,seki,/,"vessels;, counter, for, ships;, fish;, one, of, a, pair",9.0,0.267,2.0
+951,脂,shi,abura,"fat;, grease;, lard",9.0,0.267,2.0
+952,蒸,"jou, sei",musu,"steam;, heat;, foment",9.0,0.267,2.0
+953,肌,ki,hada,"texture;, skin;, body;, grain",9.0,0.267,2.0
+954,耕,kou,tagayasu,"till;, plow;, cultivate",9.0,0.267,2.0
+955,鈍,don,"nibui, namakura","dull;, slow;, foolish;, blunt",9.0,0.267,2.0
+956,泥,dei,doro,"mud;, adhere, to;, be, attached, to",9.0,0.267,2.0
+957,隅,guu,sumi,"corner;, nook",9.0,0.267,2.0
+958,灯,tou,"hi, tomosu","lamp;, a, light;, counter, for, lights",9.0,0.267,2.0
+959,辛,shin,"karai, tsurai","spicy;, hot",9.0,0.267,2.0
+960,磨,ma,migaku,"grind;, polish;, improve;, brush, teeth",9.0,0.267,2.0
+961,麦,baku,mugi,"barley;, wheat",9.0,0.267,2.0
+962,姓,"sei, shou",/,surname,9.0,0.267,2.0
+963,筒,tou,tsutsu,"cylinder;, pipe;, tube",9.0,0.267,2.0
+964,鼻,bi,hana,"nose;, snout",9.0,0.267,2.0
+965,粒,ryuu,tsubu,"grains;, drop;, counter, for, tiny, particles",9.0,0.267,2.0
+966,詞,shi,kotoba,"part, of, speech;, words",9.0,0.267,2.0
+967,胃,i,/,"stomach;, crop",9.0,0.267,2.0
+968,畳,"jou, chou",tatami,"tatami, mat;, fold",9.0,0.267,2.0
+969,机,ki,tsukue,"desk;, table",9.0,0.267,2.0
+970,膚,fu,hada,"skin;, body;, texture",9.0,0.267,2.0
+971,濯,taku,susugu,"laundry;, wash;, rinse",9.0,0.267,2.0
+972,塔,tou,/,"pagoda;, tower;, steeple",9.0,0.267,2.0
+973,沸,futsu,waku,"seethe;, boil;, ferment",9.0,0.267,2.0
+974,灰,kai,hai,"ashes;, cremate",9.0,0.267,2.0
+975,菓,ka,/,"candy;, cakes;, fruit",9.0,0.267,2.0
+976,帽,bou,"cap;, headgear",15,9.0,0.267,2.0
+977,枯,ko,kareru,"wither;, die;, dry, up;, be, seasoned",9.0,0.267,2.0
+978,涼,ryou,suzushii,"refreshing;, nice, and, cool",9.0,0.267,2.0
+979,舟,shuu,fune,"boat;, ship",9.0,0.267,2.0
+980,貝,bai,kai,shellfish,9.0,0.267,2.0
+981,符,fu,/,"token;, sign;, mark",9.0,0.267,2.0
+982,憎,zou,nikumu,"hate;, detest",9.0,0.267,2.0
+983,皿,bei,"sara, zara","dish;, a, helping;, plate",9.0,0.267,2.0
+984,肯,kou,gaenjiru,"agreement;, consent;, comply, with",9.0,0.267,2.0
+985,燥,sou,hashagu,"parch;, dry, up",9.0,0.267,2.0
+986,畜,chiku,/,"livestock;, domestic, fowl, and, animals",9.0,0.267,2.0
+987,坊,"bou, bo",/,"boy, priest",9.0,0.267,2.0
+988,挟,kyou,hasamu,"pinch;, between",9.0,0.267,2.0
+989,曇,don,kumoru,"cloudy, weather",9.0,0.267,2.0
+990,滴,teki,"shizuku, shitataru","drip;, drop",9.0,0.267,2.0
+991,伺,shi,ukagau,"visit;, ask;, inquire;, question",9.0,0.267,2.0

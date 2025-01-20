@@ -15,7 +15,8 @@ Il y est nécessaire de posséder certaines librairies (et bien évidemment pyth
 
 Allez dans le dossier contenant les différents fichiers via le terminal, puis lancez l'application en faisant `py mimi4.py`. Des numéros sont affiliés à chaque option possible. Entrez le numéro puis appuyez sur la touche `enter` du clavier. Vous pouvez ainsi naviguer partout.
 
-<img width="960" alt="image" src="https://github.com/ZaKaTsuKy/japanese-app/assets/74179251/5095a6ac-7a67-43f2-bfd1-090e07d57c7b">
+<img width="960" alt="image" src="https://github.com/ZaKaTsuKy/japanese-app/assets/74179251/9b8451ff-5773-4a19-a972-19220ada234d">
+
 
 
 ## Règles d'utilisation
@@ -97,7 +98,7 @@ Il se peut qu'à l'oral, certains kanji sont pronocés avec leur version kunyomi
 
 ## NB
 
-Le taux d'apparition des kana et des kanji est calculé seulement et uniquement dans le mode lecture, avoir faux dans les autres modes n'impacte que faux score final qui est affiché, cela ne change rien dans les différents fichier csv.
+Le taux d'apparition des kana et des kanji est calculé seulement et uniquement dans le mode lecture, avoir faux dans les autres modes n'impacte que le score final qui est affiché, cela ne change rien dans les différents fichier csv.
 
 
 ## Ajouts futur
@@ -108,6 +109,10 @@ Ceci représente les ajouts que j'ai prévu d'apporter dans un futur plus ou moi
 - Interface graphique 
 - module de conjugaison
 - module de grammaire
+- module de vocabulaire
 - Implémentation d'une IA ayant une voix artificielle japonaise réaliste.
-- Un millier de kanji triés par niveau nécessaire au passage des 5 niveaux JLPT avec leur lecture onyomi et kunyomi.
+
+## Derniers ajouts
+- Un millier de kanji triés par niveau nécessaires au passage des 5 niveaux JLPT avec leur lecture onyomi et kunyomi.
+- Optimsiation du code
 
